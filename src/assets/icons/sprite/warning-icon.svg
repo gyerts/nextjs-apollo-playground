@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>warning-icon</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="icons_sprite" transform="translate(-88.000000, -188.000000)" fill="#FD471D" fill-rule="nonzero">
+            <g id="icons_sprite_19_08_svg">
+                <path d="M97.998,188 C92.4751525,188 87.998,192.477153 87.998,198 C87.998,203.522847 92.4751525,208 97.998,208 C103.520847,208 107.998,203.522847 107.998,198 C107.998,192.477153 103.520847,188 97.998,188 Z M98.907,203 L97.089,203 L97.089,201.182 L98.907,201.182 L98.907,203 Z M98.907,199.819 L97.089,199.819 L97.089,193 L98.907,193 L98.907,199.819 Z" id="warning-icon"></path>
+            </g>
+        </g>
+    </g>
+</svg>

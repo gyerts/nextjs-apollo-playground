@@ -1,5 +1,5 @@
 import React, {useCallback, useEffect, useState} from "react";
-import {Box, Menu, MenuItem} from "@deity/falcon-ui";
+import {Box, Menu, MenuItem} from "@market-ui/falcon-ui";
 import {matchPath, useLocation} from "react-router-dom";
 import {useTabsContext} from "../context";
 import {ArrowDownMdIcon, ArrowUpMdIcon} from "../../../styling";

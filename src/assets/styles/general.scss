@@ -1,0 +1,19 @@
+@import 'src/assets/styles/variables';
+@import 'src/assets/fonts/fonts';
+
+ul {
+  li {
+    list-style-type: none;
+  }
+}
+
+.sticky-outer-wrapper {
+  position: relative;
+  z-index: 15;
+}
+
+@media screen and (max-width: $mobile-screen-width-break-point) {
+  .desktop-only {
+    display: none;
+  }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="9px" viewBox="0 0 15 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arrow-down-md-white-icon</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="icons_sprite" transform="translate(-483.000000, -155.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="icons_sprite_19_08_svg">
+                <polygon id="arrow-down-md-white-icon" transform="translate(490.500000, 159.500000) rotate(-90.000000) translate(-490.500000, -159.500000) " points="486 159.5 493.377 152 495 153.65 489.246 159.5 495 165.35 493.377 167"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,7 +1,7 @@
 import React from 'react';
-import { Box } from '@deity/falcon-ui';
+import { Box } from '@market-ui/falcon-ui';
 import styled from 'styled-components';
-import { withTheme } from '@deity/falcon-ui';
+import { withTheme } from '@market-ui/falcon-ui';
 
 const cmsContentTheme = {
   cmsContent: {

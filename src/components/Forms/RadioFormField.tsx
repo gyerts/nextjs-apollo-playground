@@ -1,5 +1,5 @@
 import React from 'react';
-import {Box, Label, Radio, FlexLayout, extractThemableProps, themed, ThemedComponentProps} from '@deity/falcon-ui';
+import {Box, Label, Radio, FlexLayout, extractThemableProps, themed, ThemedComponentProps} from '@market-ui/falcon-ui';
 import {toGridTemplate} from "src/uikitEjected";
 
 import {Field} from './Field';

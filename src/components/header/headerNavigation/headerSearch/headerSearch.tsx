@@ -1,5 +1,5 @@
 import React, {useCallback} from 'react';
-import {Box, Input, Label} from '@deity/falcon-ui';
+import {Box, Input, Label} from '@market-ui/falcon-ui';
 import {T} from "@market-ui/falcon-i18n";
 import {SearchIcon} from "src/styling";
 import {$semitransparentBlack} from "src/theme/variables";

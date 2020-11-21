@@ -1,7 +1,7 @@
 import React from 'react'
 import {colorsFromDesign} from 'src/theme/colors'
 import {Star} from './Star'
-import {FlexLayout, List, ListItem, themed} from '@deity/falcon-ui'
+import {FlexLayout, List, ListItem, themed} from '@market-ui/falcon-ui'
 
 export interface SharedRatingProps {
   activeFill?: string
@@ -63,8 +63,8 @@ export const Rating: React.FC<RatingProps> = ({
           .fill(null)
           .map((_, i) => i + 1)
           .map((starNumber) => (
-            <StarListItem
-                css={{marginRight: starNumber !== starsCount ? spacing : 0}}
+            <StarListItem 
+                css={{marginRight: starNumber !== starsCount ? spacing : 0}} 
                 key={starNumber}
                 onClick={() => {
                     if (onChange && editable) onChange(starNumber)

@@ -6,7 +6,7 @@ import {
   FormikHandlers,
   FormikState
 } from 'formik';
-import {Box, DefaultThemeProps, extractThemableProps, ThemedComponentProps} from '@deity/falcon-ui';
+import {Box, DefaultThemeProps, extractThemableProps, ThemedComponentProps} from '@market-ui/falcon-ui';
 import {extractFormikProps} from "./common/extractFormikProps";
 import {Error} from "tslint/lib/error";
 

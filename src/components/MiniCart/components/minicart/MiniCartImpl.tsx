@@ -2,7 +2,7 @@ import React from "react";
 import {Link as RouterLink} from "react-router-dom";
 
 import {T} from "@market-ui/falcon-i18n";
-import {Box, Button, FlexLayout, Text} from "@deity/falcon-ui";
+import {Box, Button, FlexLayout, Text} from "@market-ui/falcon-ui";
 import {LocaleProvider, Price, prettyScrollbars} from "src/uikitEjected";
 import {MiniCartMessage, MiniCartTitle} from "../../components";
 import {MiniCartProducts} from "../products";

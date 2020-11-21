@@ -2,7 +2,7 @@ import React, {useCallback, useState} from "react";
 import {Swiper, SwiperSlide} from "swiper/react";
 import SwiperCore, {Navigation, Pagination, Thumbs} from 'swiper';
 import styled from "styled-components";
-import {Box, Image} from '@deity/falcon-ui';
+import {Box, Image} from '@market-ui/falcon-ui';
 import {ISlide} from "./carousel.models";
 import {swiperStyles} from "./SwiperStyles";
 import {iconSpriteUrl} from "src/theme/variables";

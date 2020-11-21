@@ -1,5 +1,5 @@
 import React from 'react';
-import {Box, Image, themed} from '@deity/falcon-ui';
+import {Box, Image, themed} from '@market-ui/falcon-ui';
 import {Link} from 'react-router-dom';
 import {Component} from "../common/interfaces";
 import {toGridTemplate} from "../../../uikitEjected/helpers";

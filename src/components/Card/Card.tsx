@@ -1,5 +1,5 @@
 import React from 'react';
-import {Box, extractThemableProps, themed, ThemedComponentProps} from "@deity/falcon-ui";
+import {Box, extractThemableProps, themed, ThemedComponentProps} from "@market-ui/falcon-ui";
 import {bothResolutions} from "src/styling/cssHelper";
 const Pace = require('src/libs/pace.min');
 

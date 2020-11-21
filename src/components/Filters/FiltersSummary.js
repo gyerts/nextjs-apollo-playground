@@ -1,5 +1,5 @@
 import React from 'react';
-import {Box, FlexLayout, Icon, List, ListItem, Text, themed} from '@deity/falcon-ui';
+import {Box, FlexLayout, Icon, List, ListItem, Text, themed} from '@market-ui/falcon-ui';
 import { SearchConsumer } from '../../uikitEjected/Search';
 import { getSelectedFilterOptionsFor } from './FiltersDataProvider';
 

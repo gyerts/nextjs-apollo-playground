@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, themed } from '@deity/falcon-ui';
+import { Box, themed } from '@market-ui/falcon-ui';
 import { FilterItemLayout, SelectedFilterItem } from './FilterItem';
 import { FilterItemList } from './FilterItemList';
 

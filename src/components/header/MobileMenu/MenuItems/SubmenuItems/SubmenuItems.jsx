@@ -1,5 +1,5 @@
 import React from 'react';
-import {Box, Link, Menu, MenuItem} from '@deity/falcon-ui';
+import {Box, Link, Menu, MenuItem} from '@market-ui/falcon-ui';
 import {Link as RouterLink} from "react-router-dom";
 import './SubmenuItemsStyles.scss';
 

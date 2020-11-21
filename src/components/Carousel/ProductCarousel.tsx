@@ -4,7 +4,7 @@ import {Swiper, SwiperSlide} from 'swiper/react';
 import SwiperCore, {Navigation, Pagination, SwiperOptions} from 'swiper';
 import styled from 'styled-components';
 import {themedBreakpoints} from 'src/theme/breakpoints';
-import {Box} from '@deity/falcon-ui';
+import {Box} from '@market-ui/falcon-ui';
 
 SwiperCore.use([Navigation, Pagination]);
 

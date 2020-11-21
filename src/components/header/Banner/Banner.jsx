@@ -1,7 +1,7 @@
 import React from 'react';
 import { T } from '@market-ui/falcon-i18n';
 import { Link as RouterLink } from 'react-router-dom';
-import { Link, List, ListItem, Box, themed } from '@deity/falcon-ui';
+import { Link, List, ListItem, Box, themed } from '@market-ui/falcon-ui';
 import {RightBannerBlock} from "./RightBannerBlock/RightBannerBlock";
 import {ResponsiveIf} from "src/components";
 

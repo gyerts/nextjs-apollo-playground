@@ -1,5 +1,5 @@
 import React, {useCallback, useContext} from 'react';
-import {themed, Box, H3, Text, Input, Button, Checkbox, Label, Link} from '@deity/falcon-ui';
+import {themed, Box, H3, Text, Input, Button, Checkbox, Label, Link} from '@market-ui/falcon-ui';
 import {T, I18nContext} from '@market-ui/falcon-i18n';
 import {FormikErrors, FormikTouched, FormikValues} from 'formik';
 import styled from "styled-components";

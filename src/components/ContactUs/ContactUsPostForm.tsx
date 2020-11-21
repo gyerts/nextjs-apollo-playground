@@ -1,6 +1,6 @@
 import React, {Dispatch, SetStateAction} from 'react';
 import {T} from '@market-ui/falcon-i18n';
-import {Box, Button, FlexLayout} from '@deity/falcon-ui';
+import {Box, Button, FlexLayout} from '@market-ui/falcon-ui';
 
 interface IContactUsPostSuccessProps {
   setState: Dispatch<SetStateAction<boolean>>;

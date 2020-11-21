@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="4px" viewBox="0 0 8 4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arrow-up-xs-icon</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="icons_sprite" transform="translate(-278.000000, -156.000000)" fill="#4D4D4D" fill-rule="nonzero">
+            <g id="icons_sprite_19_08_svg">
+                <path d="M278.539,156.004405 L285.462,156.004405 C285.664276,155.978284 285.860244,156.085885 285.946769,156.270577 C286.033293,156.45527 285.990536,156.674708 285.841,156.813405 L282.381,159.865405 C282.160931,160.05004 281.840069,160.05004 281.62,159.865405 L278.16,156.813405 C278.010464,156.674708 277.967707,156.45527 278.054231,156.270577 C278.140756,156.085885 278.336724,155.978284 278.539,156.004405 L278.539,156.004405 Z" id="arrow-up-xs-icon" transform="translate(282.000500, 158.002202) rotate(180.000000) translate(-282.000500, -158.002202) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

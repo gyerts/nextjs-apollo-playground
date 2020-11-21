@@ -1,4 +1,4 @@
-import {Label, themed} from "@deity/falcon-ui";
+import {Label, themed} from "@market-ui/falcon-ui";
 
 
 export const FormFieldLabel = themed({

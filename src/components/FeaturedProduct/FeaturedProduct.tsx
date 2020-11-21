@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link as RouterLink} from 'react-router-dom';
-import {FlexLayout, Image, Link, H3, Box} from '@deity/falcon-ui';
+import {FlexLayout, Image, Link, H3, Box} from '@market-ui/falcon-ui';
 import {DangerousText} from "src/components";
 
 

@@ -8,7 +8,7 @@ import {
   extractThemableProps,
   themed,
   ThemedComponentProps
-} from '@deity/falcon-ui';
+} from '@market-ui/falcon-ui';
 import {Field} from './Field';
 import {toGridTemplate} from "../../uikitEjected";
 import {FormFieldError} from "./components/FormFieldError";

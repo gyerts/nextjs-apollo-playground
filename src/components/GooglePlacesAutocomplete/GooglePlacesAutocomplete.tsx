@@ -2,7 +2,7 @@ import React, {CSSProperties, useCallback, useState} from 'react';
 import PlacesAutocomplete, {
   Suggestion,
 } from 'react-places-autocomplete';
-import {Box, FlexLayout, Text} from "@deity/falcon-ui";
+import {Box, FlexLayout, Text} from "@market-ui/falcon-ui";
 import {useFormikContext} from "formik";
 import {IReformattedFromGoogleAddress, parseAddress} from "./common/parseAddress";
 

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="19px" viewBox="0 0 16 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>addressbook-icon</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="icons_sprite" transform="translate(-38.000000, -257.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Сгруппировать_2541" transform="translate(38.000000, 257.000000)">
+                <path d="M1.92,0 L1.92,1.9 L0,1.9 L0,3.8 L1.92,3.8 L1.92,6.333 L0,6.333 L0,8.233 L1.92,8.233 L1.92,10.766 L0,10.766 L0,12.666 L1.92,12.666 L1.92,15.2 L0,15.2 L0,17.1 L1.92,17.1 L1.92,19 L16,19 L16,0 L1.92,0 Z M11.52,9.5 L6.4,9.5 L6.4,7.6 L11.52,7.6 L11.52,9.5 Z M11.52,5.7 L6.4,5.7 L6.4,3.8 L11.52,3.8 L11.52,5.7 Z" id="Контур_2738"></path>
+            </g>
+        </g>
+    </g>
+</svg>

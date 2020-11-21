@@ -1,7 +1,7 @@
 import React from 'react';
 import { Carousel } from 'src/components/Carousel/Carousel';
-import { withTheme } from '@deity/falcon-ui';
-import { ThemeBreakpoints } from '@deity/falcon-ui/dist/theme';
+import { withTheme } from '@market-ui/falcon-ui';
+import { ThemeBreakpoints } from '@market-ui/falcon-ui/dist/theme';
 import {
     BannerSource,
     CarouselBanner,

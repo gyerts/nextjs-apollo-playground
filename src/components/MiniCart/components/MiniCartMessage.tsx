@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from "react";
 
-import {Text, FlexLayout} from "@deity/falcon-ui";
+import {Text, FlexLayout} from "@market-ui/falcon-ui";
 import {Tick as SuccessCircleIcon} from "src/styling";
 import {WarningIcon as WarningCircleIcon} from "src/styling";
-// import './MiniCartMessage.scss';
+import './MiniCartMessage.scss';
 import classNames from "classnames";
 
 

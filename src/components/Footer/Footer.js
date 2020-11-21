@@ -1,5 +1,5 @@
 import React from 'react';
-import {Box, H4, List, themed} from '@deity/falcon-ui';
+import {Box, H4, List, themed} from '@market-ui/falcon-ui';
 import { T } from '@market-ui/falcon-i18n';
 import {
   FooterSectionLayout,

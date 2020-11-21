@@ -1,8 +1,8 @@
 import React, {ReactElement} from 'react';
-import {H2, withTheme} from '@deity/falcon-ui';
+import {H2, withTheme} from '@market-ui/falcon-ui';
 import styled from 'styled-components';
 import {IShopAllCategoriesComponent, Component} from '../common/interfaces';
-import {Box, List, ListItem, Link} from '@deity/falcon-ui';
+import {Box, List, ListItem, Link} from '@market-ui/falcon-ui';
 import {bothResolutions} from 'src/styling/cssHelper';
 
 const ShopAllCategories = (props: IShopAllCategoriesComponent): ReactElement => {

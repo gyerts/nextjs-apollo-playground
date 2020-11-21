@@ -1,6 +1,6 @@
 import React from 'react';
 import MediaQuery from 'react-responsive';
-import { withTheme } from '@deity/falcon-ui';
+import { withTheme } from '@market-ui/falcon-ui';
 
 const ResponsiveImpl = props => {
   const { theme, width, maxWidth, minWidth, height, ...rest } = props;

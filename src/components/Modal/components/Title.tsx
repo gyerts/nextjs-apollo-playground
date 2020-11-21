@@ -1,5 +1,5 @@
 import React from 'react';
-import {Box, extractThemableProps, Text, themed, ThemedComponentProps} from "@deity/falcon-ui";
+import {Box, extractThemableProps, Text, themed, ThemedComponentProps} from "@market-ui/falcon-ui";
 import {toGridTemplate} from "src/uikitEjected";
 import {CloseIcon} from "../../../styling";
 import {T} from "@market-ui/falcon-i18n";

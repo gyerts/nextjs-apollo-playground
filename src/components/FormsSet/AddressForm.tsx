@@ -1,5 +1,5 @@
 import React, {useContext} from 'react';
-import {Button, DefaultThemeProps, Input} from '@deity/falcon-ui';
+import {Button, DefaultThemeProps, Input} from '@market-ui/falcon-ui';
 
 import {bothResolutions, mobileOnly} from "src/styling/cssHelper";
 import { toGridTemplate } from 'src/uikitEjected';

@@ -1,7 +1,7 @@
 import React from "react";
 import {Switch} from "react-router-dom";
 import {useTabsContext} from "../context";
-import {FlexLayout} from "@deity/falcon-ui";
+import {FlexLayout} from "@market-ui/falcon-ui";
 
 interface IProps {
   gridArea?: string

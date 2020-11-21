@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>circle-filled</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="icons_sprite" transform="translate(-92.000000, -112.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="icons_sprite_19_08_svg">
+                <path d="M102,112 C96.4771525,112 92,116.477153 92,122 C92,127.522847 96.4771525,132 102,132 C107.522847,132 112,127.522847 112,122 C112,119.347835 110.946432,116.804296 109.071068,114.928932 C107.195704,113.053568 104.652165,112 102,112 Z" id="circle-filled"></path>
+            </g>
+        </g>
+    </g>
+</svg>

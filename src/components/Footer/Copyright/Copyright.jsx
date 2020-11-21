@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, themed } from '@deity/falcon-ui';
+import { Box, themed } from '@market-ui/falcon-ui';
 import { T } from '@market-ui/falcon-i18n';
 
 export const CopyrightLayout = themed({

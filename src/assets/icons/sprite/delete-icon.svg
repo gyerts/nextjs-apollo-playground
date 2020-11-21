@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="20px" viewBox="0 0 17 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>delete-icon</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="icons_sprite" transform="translate(-152.000000, -36.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="delete-icon" transform="translate(152.000000, 36.000000)">
+                <path d="M1.005,20 L1.005,4.39 L15.005,4.39 L15.005,20 L1.005,20 Z M3.005,18.049 L13.005,18.049 L13.005,6.341 L3.005,6.341 L3.005,18.049 Z M16.005,0.976 L16.005,6.341 L0.005,6.341 L0.005,0.976 L4.091,0.976 L5.091,0 L10.919,0 L11.919,0.976 L16.005,0.976 Z M14.005,2.927 L11.086,2.927 L10.086,1.951 L5.914,1.951 L4.914,2.927 L2,2.927 L2,4.39 L14,4.39 L14.005,2.927 Z" id="Контур_2714"></path>
+                <polygon id="Контур_2715" points="4.507 7.561 4.507 16.829 5.483 16.829 5.483 7.561"></polygon>
+                <polygon id="Контур_2716" points="7.512 7.561 7.512 16.829 8.488 16.829 8.488 7.561"></polygon>
+                <polygon id="Контур_2717" points="10.517 7.561 10.517 16.829 11.493 16.829 11.493 7.561"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

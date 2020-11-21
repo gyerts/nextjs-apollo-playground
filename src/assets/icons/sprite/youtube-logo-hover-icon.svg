@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="15px" viewBox="0 0 21 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>youtube-logo-hover-icon</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd" opacity="0.88">
+        <g id="icons_sprite" transform="translate(-435.000000, -226.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="youtube-logo-hover-icon" transform="translate(435.000000, 226.000000)">
+                <path d="M20.107,1.405 C19.537,0.382 18.919,0.193 17.661,0.122 C16.403,0.051 13.242,0 10.5,0 C7.758,0 4.592,0.036 3.336,0.121 C2.08,0.206 1.46,0.381 0.886,1.406 C0.312,2.431 0,4.188 0,7.288 L0,7.3 C0,10.386 0.3,12.16 0.889,13.172 C1.478,14.184 2.082,14.381 3.338,14.472 C4.594,14.563 7.758,14.59 10.503,14.59 C13.248,14.59 16.403,14.546 17.663,14.473 C18.923,14.4 19.54,14.201 20.11,13.173 C20.7,12.16 21,10.386 21,7.3 L21,7.289 C21,4.188 20.7,2.427 20.107,1.405 Z M7.875,11.269 L7.875,3.314 L14.437,7.291 L7.875,11.269 Z" id="Контур_200-2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,6 +1,6 @@
 import React from "react";
 import {TabsContextProvider} from "./context";
-import {DefaultThemeProps, FlexLayout} from "@deity/falcon-ui";
+import {DefaultThemeProps, FlexLayout} from "@market-ui/falcon-ui";
 import {TabsLinks} from "./components/TabsLinks";
 import {TabsRoutes} from "./components/TabsRoutes";
 import {ResponsiveIf} from "../ResponsiveIf";

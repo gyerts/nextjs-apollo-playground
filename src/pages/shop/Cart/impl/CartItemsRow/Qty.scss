@@ -1,0 +1,10 @@
+body[dir=ltr] {
+  .fix-arrow-side {
+    background-position-x: 98%;
+  }
+}
+body[dir=rtl] {
+  .fix-arrow-side {
+    background-position-x: 2%;
+  }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>profile-icon-selected-white</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="icons_sprite" transform="translate(-152.000000, 0.000000)" fill-rule="nonzero">
+            <g id="profile-icon-selected-white" transform="translate(152.000000, 0.000000)">
+                <path d="M0,10 C0.0159278994,4.48376352 4.48376352,0.0159278994 10,0 C15.5162365,0.0159278994 19.9840721,4.48376352 20,10 C19.9840721,15.5162365 15.5162365,19.9840721 10,20 C4.48376352,19.9840721 0.0159278994,15.5162365 0,10 L0,10 Z" id="Объединение_5-2" fill="#FFFFFF"></path>
+                <circle id="Эллипс_24-3" fill="#000000" cx="6.5" cy="7.5" r="1.5"></circle>
+                <circle id="Эллипс_25-3" fill="#000000" cx="13.5" cy="7.5" r="1.5"></circle>
+                <path d="M7.2,12.8 L5.8,14.2 C6.88039354,15.3698722 8.40775214,16.0244545 10,16 C11.5922479,16.0244545 13.1196065,15.3698722 14.2,14.2 L12.8,12.8 C11.2346612,14.2999715 8.76533884,14.2999715 7.2,12.8 L7.2,12.8 Z" id="Контур_2696-3" fill="#000000"></path>
+            </g>
+        </g>
+    </g>
+</svg>

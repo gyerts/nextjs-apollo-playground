@@ -1,6 +1,6 @@
 import React from 'react';
 import {FormFieldLabel} from './components/FormFieldLabel';
-import {Dropdown, DropdownLabel, DropdownMenu, DropdownMenuItem} from '@deity/falcon-ui';
+import {Dropdown, DropdownLabel, DropdownMenu, DropdownMenuItem} from '@market-ui/falcon-ui';
 import {FormFieldError} from './components/FormFieldError';
 import {FormikErrors, FormikTouched, useFormikContext} from 'formik';
 

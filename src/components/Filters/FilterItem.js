@@ -1,5 +1,5 @@
 import React from 'react';
-import { Icon, ListItem, themed } from '@deity/falcon-ui';
+import { Icon, ListItem, themed } from '@market-ui/falcon-ui';
 
 export const FilterItemLayout = themed({
   tag: ListItem,

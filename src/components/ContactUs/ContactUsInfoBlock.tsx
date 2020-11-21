@@ -1,5 +1,5 @@
 import {T} from "@market-ui/falcon-i18n";
-import {Box, FlexLayout, Text} from "@deity/falcon-ui";
+import {Box, FlexLayout, Text} from "@market-ui/falcon-ui";
 import React from "react";
 
 interface IContactUsInfoBlockProps {

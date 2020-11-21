@@ -2,7 +2,7 @@ import React, {useRef} from 'react';
 import {UserIconDef, UserIconLoged} from "src/styling";
 import {Link as RouterLink} from "react-router-dom";
 import {CustomerQuery} from "src/api";
-import {extractThemableProps, Link, ThemedComponentProps} from "@deity/falcon-ui";
+import {extractThemableProps, Link, ThemedComponentProps} from "@market-ui/falcon-ui";
 
 
 interface IProps extends ThemedComponentProps {

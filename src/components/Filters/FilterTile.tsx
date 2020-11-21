@@ -1,5 +1,5 @@
 import React from 'react';
-import {H4, DetailsContent, Icon} from '@deity/falcon-ui';
+import {H4, DetailsContent, Icon} from '@market-ui/falcon-ui';
 import {FilterDetails, FilterSummary} from './FilterDetails';
 import {MultipleFilter} from "./MultipleFilter";
 

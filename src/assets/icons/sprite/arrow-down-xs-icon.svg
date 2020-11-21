@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="4px" viewBox="0 0 8 4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arrow-down-xs-icon</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="icons_sprite" transform="translate(-255.000000, -156.000000)" fill="#4D4D4D" fill-rule="nonzero">
+            <g id="icons_sprite_19_08_svg">
+                <path d="M255.538,156 L262.461,156 C262.663276,155.97388 262.859244,156.08148 262.945769,156.266173 C263.032293,156.450865 262.989536,156.670304 262.84,156.809 L259.38,159.861 C259.159931,160.045635 258.839069,160.045635 258.619,159.861 L255.159,156.809 C255.009464,156.670304 254.966707,156.450865 255.053231,156.266173 C255.139756,156.08148 255.335724,155.97388 255.538,156 L255.538,156 Z" id="arrow-down-xs-icon"></path>
+            </g>
+        </g>
+    </g>
+</svg>

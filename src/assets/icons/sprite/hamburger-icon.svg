@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>hamburger-icon</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="icons_sprite" fill="#000000" fill-rule="nonzero">
+            <g id="hamburger-icon">
+                <rect id="Прямоугольник_223" x="0" y="0" width="20" height="3"></rect>
+                <g id="noun_menu_1095160" transform="translate(0.000000, 8.500000)">
+                    <rect id="Прямоугольник_223-2" x="0" y="0" width="20" height="3"></rect>
+                </g>
+                <g id="noun_menu_1095160-2" transform="translate(0.000000, 17.000000)">
+                    <rect id="Прямоугольник_223-3" x="0" y="0" width="20" height="3"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

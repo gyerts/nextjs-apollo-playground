@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link as RouterLink } from 'react-router-dom';
-import { FlexLayout, Image, Link, Box} from "@deity/falcon-ui";
+import { FlexLayout, Image, Link, Box} from "@market-ui/falcon-ui";
 import { toGridTemplate } from "../../../uikitEjected/helpers";
 import { HeaderSearch } from "../headerNavigation/headerSearch/headerSearch";
 import { MobileMenu } from "../MobileMenu/MobileMenu";

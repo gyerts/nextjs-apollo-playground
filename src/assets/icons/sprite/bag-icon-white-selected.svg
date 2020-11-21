@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bag-icon-white-selected</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="icons_sprite" transform="translate(-304.000000, 0.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="bag-icon-white-selected" transform="translate(304.000000, 0.000000)">
+                <path d="M15.446,6 C14.555,2.4 12.476,0 10,0 C7.524,0 5.446,2.4 4.554,6 L0,6 L1.188,20 L18.812,20 L20,6 L15.446,6 Z M10,2 C11.287,2 12.673,3.5 13.366,6 L6.634,6 C7.327,3.5 8.713,2 10,2 Z" id="Контур_2693-3"></path>
+            </g>
+        </g>
+    </g>
+</svg>

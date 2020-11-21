@@ -1,7 +1,7 @@
 import {Link as RouterLink} from "react-router-dom";
 import React, {useCallback, useContext} from "react";
 import {I18nContext, T} from "@market-ui/falcon-i18n";
-import {Box, Button, FlexLayout, Icon, Link, Text} from "@deity/falcon-ui";
+import {Box, Button, FlexLayout, Icon, Link, Text} from "@market-ui/falcon-ui";
 
 import {bothResolutions, desktopOnly, mobileOnly} from "src/styling/cssHelper";
 import {ForgetForm, CheckboxFormField, FormField, useTopPageMessageContext, useModalContext} from "src/components";

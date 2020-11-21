@@ -1,8 +1,8 @@
 import React, {useRef} from "react";
-import {Box, FlexLayout} from '@deity/falcon-ui';
+import {Box, FlexLayout} from '@market-ui/falcon-ui';
 
 import {MiniCartDataContainer} from ".";
-// import './MiniCartPopup.scss';
+import './MiniCartPopup.scss';
 import {useClickOutside} from "../../../LayoutLogger/common/useClickOutside";
 import {useTimeoutPopupClose} from "../../../LayoutLogger/common/useTimeoutPopupClose";
 import {IMiniCartState} from "../../graphql/client/MiniCartClientInitialData";

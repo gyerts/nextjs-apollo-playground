@@ -1,5 +1,5 @@
 import React from 'react';
-import {Box, FlexLayout, Link, themed} from '@deity/falcon-ui';
+import {Box, FlexLayout, Link, themed} from '@market-ui/falcon-ui';
 import styled from "styled-components";
 import {iconSpriteUrl} from "../../../theme/variables";
 

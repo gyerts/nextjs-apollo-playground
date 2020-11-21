@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>home-icon</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="icons_sprite" transform="translate(-186.000000, -256.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Сгруппировать_2490" transform="translate(186.000000, 256.000000)">
+                <path d="M2.4,9.88 L2.4,19.351 L17.611,19.351 L17.611,9.88 L10,4.08 L2.4,9.88 Z M9.05,17.321 L9.05,13.261 L10.95,13.261 L10.95,17.321 L9.05,17.321 Z M15.705,17.321 L12.853,17.321 L12.853,11.231 L7.153,11.231 L7.153,17.321 L4.3,17.321 L4.3,10.921 L10,6.575 L15.7,10.921 L15.705,17.321 Z" id="Контур_2705"></path>
+                <polygon id="Контур_2706" points="10 0 5.173 3.634 5.173 0.05 3.248 0.05 3.248 5.086 0 7.525 1.125 9.174 10 2.5 18.875 9.179 20 7.525"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

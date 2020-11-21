@@ -1,7 +1,7 @@
 import React from 'react';
 import {SearchIcon as SearchIconSvg} from "src/styling";
 import {Link as RouterLink} from "react-router-dom";
-import {extractThemableProps, Link, ThemedComponentProps} from "@deity/falcon-ui";
+import {extractThemableProps, Link, ThemedComponentProps} from "@market-ui/falcon-ui";
 
 
 interface IProps extends ThemedComponentProps {

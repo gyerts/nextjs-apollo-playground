@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>email-icon</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="icons_sprite" transform="translate(-110.000000, -256.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="icons_sprite_19_08_svg">
+                <path d="M119.961,256 L110,262.248 L110,275.993 L128.691,275.993 C129.379,275.993 129.997,276.008 130,275.993 L129.937,262.248 L119.961,256 Z M126.731,263.185 L119.968,267.423 L113.207,263.185 L119.968,258.947 L126.731,263.185 Z" id="email-icon"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Box, FlexLayout, Link} from '@deity/falcon-ui';
+import {Box, FlexLayout, Link} from '@market-ui/falcon-ui';
 import {Link as RouterLink} from "react-router-dom";
 import {CustomerQuery} from "src/api/Customer/CustomerQuery";
 import {SearchBarArea} from "../../Searchbar/Searchbar";

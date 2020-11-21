@@ -4,7 +4,7 @@ import {IErrorsObject, useError} from "./common/useError";
 import {useDom} from "./common/useDom";
 import {TranzilaInput} from "./components/TranzilaInput";
 import {IChargeRequestParams, IChargeResponse, INSTALLMENTS_PAYMENT, ITranzilaError, REGULAR_PAYMENT} from "./types";
-import {Box, Button} from "@deity/falcon-ui";
+import {Box, Button} from "@market-ui/falcon-ui";
 import {ErrorView} from "./components/ErrorView";
 import {toGridTemplate} from "src/uikitEjected";
 import {I18nContext, T} from "@market-ui/falcon-i18n";

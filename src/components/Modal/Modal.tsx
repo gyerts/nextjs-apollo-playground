@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactModal from 'react-modal';
 import {toGridTemplate} from "src/uikitEjected";
-import {Box, themed} from "@deity/falcon-ui";
+import {Box, themed} from "@market-ui/falcon-ui";
 import {ResponsiveIf} from "src/components";
 
 import {useModalContext} from '.';

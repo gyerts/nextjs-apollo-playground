@@ -1,5 +1,5 @@
 import React, {useEffect, useRef} from "react";
-import {Icon, Button} from "@deity/falcon-ui";
+import {Icon, Button} from "@market-ui/falcon-ui";
 
 import {SetMessageMiniCartMutation} from "src/components";
 import {DeleteIcon} from "src/styling";

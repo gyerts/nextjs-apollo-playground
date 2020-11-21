@@ -1,6 +1,6 @@
 import React from "react";
 
-import {Image, Text, FlexLayout, Link} from "@deity/falcon-ui";
+import {Image, Text, FlexLayout, Link} from "@market-ui/falcon-ui";
 import {T} from "@market-ui/falcon-i18n";
 
 import {Price, toGridTemplate} from "src/uikitEjected";

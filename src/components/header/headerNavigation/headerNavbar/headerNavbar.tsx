@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link as RouterLink, useLocation} from 'react-router-dom';
-import {Navbar, NavbarItem, NavbarItemMenu, Link, List, ListItem, Image, FlexLayout, Box, themed, Theme} from '@deity/falcon-ui';
+import {Navbar, NavbarItem, NavbarItemMenu, Link, List, ListItem, Image, FlexLayout, Box, themed, Theme} from '@market-ui/falcon-ui';
 import {SearchBarArea} from "../../Searchbar/Searchbar";
 import {RightBannerBlock} from "../../Banner/RightBannerBlock/RightBannerBlock";
 import {GQLMenuItem} from "src/graphql-types";

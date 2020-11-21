@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Backdrop, Portal, Sidebar} from '@deity/falcon-ui';
+import {Backdrop, Portal, Sidebar} from '@market-ui/falcon-ui';
 import {Toggle} from "react-powerplug";
 import {MenuItems} from "./MenuItems/MenuItems";
 import {SubmenuItems} from "./MenuItems/SubmenuItems/SubmenuItems";

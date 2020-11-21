@@ -1,6 +1,6 @@
 import React from 'react';
 import { Form as FormikForm } from 'formik';
-import {Box, DefaultThemeProps, extractThemableProps, themed, ThemedComponentProps} from '@deity/falcon-ui';
+import {Box, DefaultThemeProps, extractThemableProps, themed, ThemedComponentProps} from '@market-ui/falcon-ui';
 
 
 interface IProps extends ThemedComponentProps {

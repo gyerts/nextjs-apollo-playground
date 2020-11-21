@@ -1,6 +1,6 @@
 import React from "react";
 
-import {Divider} from "@deity/falcon-ui";
+import {Divider} from "@market-ui/falcon-ui";
 
 import { MiniCartProduct } from ".";
 import {GQLCartItem} from "src/graphql-types";

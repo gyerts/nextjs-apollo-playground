@@ -1,0 +1,58 @@
+//
+//
+// FOR PRODUCTION SERVER
+//
+//
+//@font-face {
+//  font-family: 'fbextaza';
+//  src:
+//    url('https://static.wowlondon.com/assets/fonts/fbextaza-boldwebfont.eot') format('embedded-opentype'), /* IE6-IE8 */
+//    url('https://static.wowlondon.com/assets/fonts/fbextaza-boldwebfont.woff') format('woff'), /* Modern Browsers */
+//    url('https://static.wowlondon.com/assets/fonts/fbextaza-boldwebfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+//    url('https://static.wowlondon.com/assets/fonts/fbextaza-boldwebfont.svg') format('svg'); /* Legacy iOS */
+//  font-weight: bold;
+//}
+//@font-face {
+//  font-family: 'fbextaza';
+//  src:
+//    url('https://static.wowlondon.com/assets/fonts/fbextaza-regularwebfont.eot') format('embedded-opentype'), /* IE6-IE8 */
+//    url('https://static.wowlondon.com/assets/fonts/fbextaza-regularwebfont.woff') format('woff'), /* Modern Browsers */
+//    url('https://static.wowlondon.com/assets/fonts/fbextaza-regularwebfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+//    url('https://static.wowlondon.com/assets/fonts/fbextaza-regularwebfont.svg') format('svg'); /* Legacy iOS */
+//}
+
+//
+//
+// FOR DEVELOPMENT SERVER
+//
+//
+@font-face {
+  font-family: 'fbextaza';
+  src:
+    url('../fonts/fbextaza-boldwebfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/fbextaza-boldwebfont.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/fbextaza-boldwebfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/fbextaza-boldwebfont.svg') format('svg'); /* Legacy iOS */
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'fbextaza';
+  src:
+    url('../fonts/fbextaza-regularwebfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/fbextaza-regularwebfont.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/fbextaza-regularwebfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/fbextaza-regularwebfont.svg') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  unicode-range: U+00-FF, U+980-9FF;
+  font-family: 'fbextaza';
+  src:
+    url('../fonts/Lato/Lato-Regular.ttf')  format('opentype'); /* Safari, Android, iOS */
+}
+@font-face {
+  unicode-range: U+00-FF, U+980-9FF;
+  font-family: 'fbextaza';
+  src:
+    url('../fonts/Lato/Lato-Bold.ttf')  format('opentype'); /* Safari, Android, iOS */
+  font-weight: bold;
+}

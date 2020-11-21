@@ -7,7 +7,7 @@ import {
   DropdownMenuItem,
   extractThemableProps,
   ThemedComponentProps
-} from "@deity/falcon-ui";
+} from "@market-ui/falcon-ui";
 import {T} from "@market-ui/falcon-i18n";
 import {FormFieldLabel} from "../../Forms/components/FormFieldLabel";
 

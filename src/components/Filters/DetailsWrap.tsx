@@ -1,5 +1,5 @@
 import React, {RefObject, useCallback, useEffect, useRef} from 'react';
-import {Details, PropsWithTheme, Summary, themed} from '@deity/falcon-ui';
+import {Details, PropsWithTheme, Summary, themed} from '@market-ui/falcon-ui';
 import {themedBreakpoints} from "src/theme/breakpoints";
 
 export const FilterSummary = themed({

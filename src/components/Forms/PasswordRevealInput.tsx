@@ -1,6 +1,6 @@
 import React, {useCallback, useContext, useState} from 'react';
 import {I18nContext} from '@market-ui/falcon-i18n';
-import { Input, Icon, Box } from '@deity/falcon-ui';
+import { Input, Icon, Box } from '@market-ui/falcon-ui';
 
 interface IProps {
 }

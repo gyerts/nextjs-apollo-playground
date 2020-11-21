@@ -3,7 +3,7 @@ import {Swiper, SwiperSlide} from 'swiper/react';
 import SwiperCore, {Navigation, Pagination, SwiperOptions} from 'swiper';
 import styled from 'styled-components';
 import {themedBreakpoints} from 'src/theme/breakpoints';
-import {Box, Theme} from '@deity/falcon-ui';
+import {Box, Theme} from '@market-ui/falcon-ui';
 import {PromoBannerComponent, PromoSectionBanner} from '../PromoSectionBanner/PromoSectionBanner';
 
 SwiperCore.use([Navigation, Pagination]);

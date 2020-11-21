@@ -1,5 +1,5 @@
 import React from 'react';
-import {Box, H2} from '@deity/falcon-ui';
+import {Box, H2} from '@market-ui/falcon-ui';
 import {Carousel} from 'src/components/Carousel/Carousel';
 import {Component} from "../common/interfaces";
 

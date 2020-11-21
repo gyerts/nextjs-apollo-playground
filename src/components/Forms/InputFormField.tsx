@@ -1,5 +1,5 @@
 import React from 'react';
-import {Box, Input, extractThemableProps, themed, ThemedComponentProps} from '@deity/falcon-ui';
+import {Box, Input, extractThemableProps, themed, ThemedComponentProps} from '@market-ui/falcon-ui';
 
 import {Field} from './Field';
 import {FormFieldLabel} from "./components/FormFieldLabel";

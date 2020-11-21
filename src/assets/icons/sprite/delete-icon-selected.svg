@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="22px" viewBox="0 0 18 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>delete-icon-selected</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="icons_sprite" transform="translate(-185.000000, -35.000000)" fill-rule="nonzero">
+            <g id="delete-icon-selected" transform="translate(186.000000, 36.000000)">
+                <polygon id="Объединение_6" stroke-opacity="0" stroke="#000000" fill="#000000" points="1 20 1 6.342 0 6.342 0 0.976 4.086 0.976 5.086 0 10.915 0 11.915 0.976 16 0.976 16 6.342 15 6.342 15 20"></polygon>
+                <polygon id="Контур_2715-2" fill="#000000" points="4.507 7.561 4.507 16.829 5.483 16.829 5.483 7.561"></polygon>
+                <polygon id="Контур_2716-2" fill="#000000" points="7.512 7.561 7.512 16.829 8.488 16.829 8.488 7.561"></polygon>
+                <polygon id="Контур_2717-2" fill="#000000" points="10.517 7.561 10.517 16.829 11.493 16.829 11.493 7.561"></polygon>
+                <rect id="Прямоугольник_860" fill="#000000" x="2" y="11" width="12" height="8"></rect>
+                <polygon id="Контур_2745" fill="#FFFFFF" points="4.507 8 4.507 17.268 5.483 17.268 5.483 8"></polygon>
+                <polygon id="Контур_2746" fill="#FFFFFF" points="7.512 8 7.512 17.268 8.488 17.268 8.488 8"></polygon>
+                <polygon id="Контур_2747" fill="#FFFFFF" points="10.517 8 10.517 17.268 11.493 17.268 11.493 8"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

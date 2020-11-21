@@ -1,4 +1,4 @@
-import { List, themed } from '@deity/falcon-ui';
+import { List, themed } from '@market-ui/falcon-ui';
 
 export const FilterItemList = themed({
   tag: List,

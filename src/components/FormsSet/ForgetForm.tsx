@@ -4,7 +4,7 @@ import * as yup from 'yup'
 import { FormField, UIForm } from 'src/components'
 
 import { T } from '@market-ui/falcon-i18n'
-import { Button, DefaultThemeProps, Text } from '@deity/falcon-ui'
+import { Button, DefaultThemeProps, Text } from '@market-ui/falcon-ui'
 import { useModalContext } from 'src/components'
 import { Dictionary } from 'src/types'
 import { toGridTemplate } from 'src/uikitEjected'

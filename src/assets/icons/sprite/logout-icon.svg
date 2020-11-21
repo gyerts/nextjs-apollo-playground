@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logout-icon</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="icons_sprite" transform="translate(-148.000000, -256.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="logout-icon" transform="translate(148.000000, 256.000000)">
+                <polygon id="Контур_2739" points="12.5 17.5 2.5 17.5 2.5 2.5 12.5 2.5 12.5 3.75 15 3.75 15 0 0 0 0 20 15 20 15 16.25 12.5 16.25"></polygon>
+                <polygon id="Контур_2740" points="15.366 5.368 13.6 7.134 15.216 8.75 8.75 8.75 8.75 11.25 15.215 11.25 13.6 12.868 15.368 14.636 20 10"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

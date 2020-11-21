@@ -4,7 +4,7 @@ import * as yup from 'yup';
 import {I18nContext, T} from '@market-ui/falcon-i18n';
 import {SubmitButton} from './index';
 import {FormFieldDropdown} from '../Forms/FormFieldDropdown';
-import {FlexLayout} from "@deity/falcon-ui";
+import {FlexLayout} from "@market-ui/falcon-ui";
 
 const validationSchema = (t: (i18nId: string) => string) => {
   return yup.object().shape({

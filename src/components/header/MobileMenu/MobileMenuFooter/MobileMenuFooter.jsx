@@ -1,5 +1,5 @@
 import React from 'react';
-import {Box, FlexLayout, Link} from '@deity/falcon-ui';
+import {Box, FlexLayout, Link} from '@market-ui/falcon-ui';
 import {Link as RouterLink} from "react-router-dom";
 import {T} from "@market-ui/falcon-i18n";
 import './MobileMenuFooterStyles.scss';

@@ -1,4 +1,4 @@
-import {themed} from "@deity/falcon-ui";
+import {themed} from "@market-ui/falcon-ui";
 
 
 export const UlStyled = themed({

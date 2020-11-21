@@ -1,6 +1,6 @@
 import React from 'react';
 import {AddressFormValues} from "src/components";
-import {Button, FlexLayout, Text} from "@deity/falcon-ui";
+import {Button, FlexLayout, Text} from "@market-ui/falcon-ui";
 import {T} from "@market-ui/falcon-i18n";
 import {GQLAddress} from "src/graphql-types";
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Box, extractThemableProps, themed, ThemedComponentProps} from "@deity/falcon-ui";
+import {Box, extractThemableProps, themed, ThemedComponentProps} from "@market-ui/falcon-ui";
 import {toGridTemplate} from "src/uikitEjected";
 
 const area = {

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>plus-icon</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="icons_sprite" transform="translate(0.000000, -150.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="plus-icon" transform="translate(0.000000, 150.000000)">
+                <polygon id="Контур_2714-4" points="12 7.301 7.516 7.301 7.516 12.001 4.461 12.001 4.461 7.301 0 7.301 0 4.679 4.461 4.679 4.461 0.001 7.516 0.001 7.516 4.679 12 4.679"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

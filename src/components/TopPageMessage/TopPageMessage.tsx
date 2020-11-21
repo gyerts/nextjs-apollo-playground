@@ -1,4 +1,4 @@
-import {Box, Button, extractThemableProps, FlexLayout, Text, ThemedComponentProps} from "@deity/falcon-ui";
+import {Box, Button, extractThemableProps, FlexLayout, Text, ThemedComponentProps} from "@market-ui/falcon-ui";
 import React, {useCallback, useDebugValue, useEffect, useRef, useState} from "react";
 import {useLayoutListenerContext, useTopPageMessageContext} from "src/components";
 import {T} from "@market-ui/falcon-i18n";

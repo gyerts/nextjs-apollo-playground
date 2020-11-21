@@ -1,5 +1,5 @@
 import React from 'react';
-import {Label, Checkbox, Text} from '@deity/falcon-ui';
+import {Label, Checkbox, Text} from '@market-ui/falcon-ui';
 import { FilterItemLayout } from './FilterItem';
 import { FilterItemList } from './FilterItemList';
 

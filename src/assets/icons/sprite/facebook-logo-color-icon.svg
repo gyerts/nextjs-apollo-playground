@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>facebook-logo-color-icon</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="icons_sprite" transform="translate(-271.000000, -226.000000)" fill="#3A559F" fill-rule="nonzero">
+            <g id="icons_sprite_19_08_svg">
+                <path d="M271,226 L271,241 L278.988,241 L278.988,235.206 L277.036,235.206 L277.036,232.84 L278.988,232.84 L278.988,230.854 C278.987998,229.410784 280.156785,228.240207 281.6,228.238 L283.642,228.238 L283.642,230.365 L282.185,230.365 C281.726051,230.365 281.354,230.737051 281.354,231.196 L281.354,232.84 L283.609,232.84 L283.3,235.206 L281.354,235.206 L281.354,241 L286,241 L286,226 L271,226 Z" id="facebook-logo-color-icon"></path>
+            </g>
+        </g>
+    </g>
+</svg>

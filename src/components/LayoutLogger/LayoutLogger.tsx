@@ -1,5 +1,5 @@
 import React from "react";
-import {Box} from "@deity/falcon-ui";
+import {Box} from "@market-ui/falcon-ui";
 import {useLayoutListenerContext} from "../LayoutIndicator";
 
 let enabled = false;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Toggle } from 'react-powerplug';
-import { CSSObject, Summary, themed } from '@deity/falcon-ui';
+import { CSSObject, Summary, themed } from '@market-ui/falcon-ui';
 import {DetailsWrap} from "./DetailsWrap";
 
 export const FilterSummary = themed({

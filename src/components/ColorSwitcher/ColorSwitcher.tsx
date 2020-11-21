@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import {Tab, Tabs, Text, themed} from "@deity/falcon-ui";
+import {Tab, Tabs, Text, themed} from "@market-ui/falcon-ui";
 import {themedColors} from "src/theme/colors";
 import {State} from "react-powerplug";
 import {T} from "@market-ui/falcon-i18n";
-import {Image} from '@deity/falcon-ui';
+import {Image} from '@market-ui/falcon-ui';
 import {IConfigurableOptionValue, ICssObject, IGalleryItem} from "src/common/models";
 import {getSwatchInstockStatusMap, getValueLabelBySku} from "./ColorSwitcherService";
 import {goToProduct} from "src/uikitEjected";

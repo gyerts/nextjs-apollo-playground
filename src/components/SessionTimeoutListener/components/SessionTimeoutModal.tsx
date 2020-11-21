@@ -1,6 +1,6 @@
 import React from "react";
 import {T} from "@market-ui/falcon-i18n";
-import {Button, FlexLayout, Text} from "@deity/falcon-ui";
+import {Button, FlexLayout, Text} from "@market-ui/falcon-ui";
 
 import {IModalContentProps} from "../../Modal/context";
 

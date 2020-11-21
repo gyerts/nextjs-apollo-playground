@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link as RouterLink } from 'react-router-dom';
-import { Box, Link, ListItem, themed } from '@deity/falcon-ui';
+import { Box, Link, ListItem, themed } from '@market-ui/falcon-ui';
 
 export const FooterSectionsLayout = themed({
     tag: Box,

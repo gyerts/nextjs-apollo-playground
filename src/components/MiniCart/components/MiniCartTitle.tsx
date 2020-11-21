@@ -1,6 +1,6 @@
 import React from "react";
 
-import {FlexLayout, Text, Box} from "@deity/falcon-ui";
+import {FlexLayout, Text, Box} from "@market-ui/falcon-ui";
 import {I18n, T} from "@market-ui/falcon-i18n";
 
 import {CloseIcon} from "src/styling";

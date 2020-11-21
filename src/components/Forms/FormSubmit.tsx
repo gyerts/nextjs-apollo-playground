@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Button } from '@deity/falcon-ui';
+import { Box, Button } from '@market-ui/falcon-ui';
 
 interface IProps {
   submitting: boolean

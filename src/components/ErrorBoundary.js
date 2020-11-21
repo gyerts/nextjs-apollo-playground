@@ -1,5 +1,5 @@
 import React from 'react';
-import { H2, Box, Link } from '@deity/falcon-ui';
+import { H2, Box, Link } from '@market-ui/falcon-ui';
 import {T} from "@market-ui/falcon-i18n";
 
 // based on https://reactjs.org/docs/error-boundaries.html

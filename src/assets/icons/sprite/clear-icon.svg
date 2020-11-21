@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>clear-icon</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="icons_sprite" transform="translate(-168.000000, -112.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="clear-icon" transform="translate(168.000000, 112.000000)">
+                <path d="M10,0 C4.4771525,0 7.10542736e-15,4.4771525 7.10542736e-15,10 C7.10542736e-15,15.5228475 4.4771525,20 10,20 C15.5228475,20 20,15.5228475 20,10 C19.9939376,4.47966557 15.5203344,0.00606237045 10,0 Z M14.071,13.087 L13.087,14.071 L10,10.984 L6.913,14.071 L5.929,13.087 L9.016,10 L5.929,6.913 L6.913,5.929 L10,9.016 L13.087,5.929 L14.071,6.913 L10.984,10 L14.071,13.087 Z" id="Контур_2736"></path>
+            </g>
+        </g>
+    </g>
+</svg>

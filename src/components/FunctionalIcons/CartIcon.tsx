@@ -1,7 +1,7 @@
 import React, {useRef} from 'react';
 import {BagEmptyIconWhite} from "src/styling";
 import {Link as RouterLink} from "react-router-dom";
-import {Badge, extractThemableProps, Link, ThemedComponentProps} from "@deity/falcon-ui";
+import {Badge, extractThemableProps, Link, ThemedComponentProps} from "@market-ui/falcon-ui";
 import {OpenMiniCartMutation} from "../MiniCart/graphql";
 import {CartQuery} from "src/api";
 

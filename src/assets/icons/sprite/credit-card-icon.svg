@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="20px" viewBox="0 0 26 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>credit-card-icon</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="icons_sprite" transform="translate(-44.000000, -188.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Credit_card" transform="translate(44.000000, 188.000000)">
+                <path d="M26,-3.55271368e-15 L-3.55271368e-15,-3.55271368e-15 L-3.55271368e-15,20 L26,20 L26,-3.55271368e-15 Z M1.3,1.311 L24.7,1.311 L24.7,4.278 L1.3,4.278 L1.3,1.311 Z M24.703,18.69 L1.303,18.69 L1.303,8.256 L24.703,8.256 L24.703,18.69 Z" id="Контур_2729-2"></path>
+            </g>
+        </g>
+    </g>
+</svg>
