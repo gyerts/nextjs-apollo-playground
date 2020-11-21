@@ -1,26 +1,31 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import {useQuery, gql} from '@apollo/client';
 import React from "react";
+import {CmsSlot} from "../src/components/Cms";
 
-const TestQuery = gql`
-  query {
-    name
-  }
-`;
-
-export default function Home() {
-  const {data, error, loading} = useQuery(TestQuery);
-
+const HomeLayout = (props) => {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>wow london</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      ad
-      {!error && !loading && data.name}
+    <div className={props.className}>
+      <CmsSlot position="CMSMainTop" />
+      <CmsSlot position="CMSMainCenter" />
+      <CmsSlot position="CMSMainBottom" />
     </div>
+
   )
-}
+};
+
+// const sdf = `
+//   h2 {
+//     text-transform: uppercase;
+//     text-align: center;
+//     padding-bottom: 10px;
+//     padding-top: 40px;
+//     font-size: 24px;
+//
+//     @media(min-width: themedBreakpoints.md) {
+//       font-size: 40px;
+//       padding-bottom: 30px;
+//       padding-top: 60px;
+//     }
+//   }
+// `;
+
+export default HomeLayout;

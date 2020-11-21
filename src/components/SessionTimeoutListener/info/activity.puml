@@ -1,0 +1,27 @@
+@startuml
+note right: Each minute
+(*) --> run check
+if "Session expired?"
+    ->[yes] "show popup\n'session expired'"
+    -> (*)
+else
+    if "Session will \nexpire in ~1min?"
+        ---> [yes] "show popup\n'ask continue session'"
+        -> (*)
+    else
+    endif
+endif
+-> (*)
+note right: idle
+
+
+
+'if "     Session will expire in ~1min?" then
+'
+'  -->[true] "show popup\n'continue session'"
+'  -right-> (*)
+'else
+'  ->[false] "Something else"
+'endif
+
+@enduml

@@ -1,0 +1,35 @@
+@import 'src/assets/styles/variables';
+
+.mobile-logo {
+  display: none;
+}
+
+@media screen and (max-width: $mobile-screen-width-break-point) {
+
+  .desktop-logo {
+    display: none;
+  }
+
+  .mobile-logo {
+    display: block;
+  }
+
+  .header-navigation-sticky-mobile {
+    & > div {
+      & > div {
+        padding: 0;
+      }
+    }
+
+    .searchbar {
+      position: fixed;
+      top: 0;
+      height: 48px;
+      width: calc(100vw - 48px);
+
+      &.disable-sticky {
+        position: relative;
+      }
+    }
+  }
+}

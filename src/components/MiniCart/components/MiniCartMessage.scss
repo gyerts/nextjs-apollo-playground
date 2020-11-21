@@ -1,0 +1,14 @@
+.message {
+  transition: .5s;
+  overflow: hidden;
+
+  &-closed {
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+    height: 0;
+  }
+
+  &-opened {
+    height: 50px;
+  }
+}

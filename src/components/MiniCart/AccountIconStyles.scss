@@ -1,0 +1,11 @@
+@import 'src/assets/styles/variables';
+
+.icon-account-logged-in {
+  display: inline-block;
+  background-image: $iconSpriteUrl;
+  height: 35px;
+  width: 53px;
+  background-repeat: no-repeat;
+  background-position-x: -136px;
+  background-position-y: 10px;
+}
