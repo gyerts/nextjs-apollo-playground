@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box } from '@deity/falcon-ui';
-import './AccountIconStyles.scss'
+// import './AccountIconStyles.scss'
 
 interface IProps {
     onClick?: () => void

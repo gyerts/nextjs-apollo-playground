@@ -1,6 +1,6 @@
 import React from 'react';
 import { MiniCartPopup, MiniCartImpl, MessageController } from './components/minicart';
-import './MiniCart.scss';
+// import './MiniCart.scss';
 import {ErrorBoundary} from "../ErrorBoundary";
 import {UnexpectedError} from "./components/UnexpectedError";
 
