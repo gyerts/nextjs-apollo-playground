@@ -1,5 +1,4 @@
 import gql from 'graphql-tag';
-import { Query } from '../Query/Query';
 
 export const GET_URL = gql`
   query Url($path: String!) {
@@ -12,11 +11,8 @@ export const GET_URL = gql`
   }
 `;
 
-export class UrlQuery extends Query {
+export class UrlQuery {
   static defaultProps = {
     query: GET_URL
-  };
-  static propTypes = {
-    ...Query.propTypes
   };
 }

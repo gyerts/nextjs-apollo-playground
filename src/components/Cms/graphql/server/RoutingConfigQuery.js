@@ -1,7 +1,6 @@
-import gql from 'graphql-tag';
-import { Query } from '../../../../uikitEjected/Query/Query';
+import {gql} from '@apollo/client';
 
-const GET_CONFIG = gql`
+export const GET_CONFIG = gql`
   query {
       routingConfig {
         pathRegex
@@ -13,8 +12,8 @@ const GET_CONFIG = gql`
   }
 `;
 
-export class RoutingConfigQuery extends Query {
-  static defaultProps = {
-    query: GET_CONFIG
-  };
-}
+// export class RoutingConfigQuery extends Query {
+//   static defaultProps = {
+//     query: GET_CONFIG
+//   };
+// }

@@ -1,7 +1,7 @@
 import React from 'react';
 import {ISlide} from "./carousel.models";
 import {StyledThumbSwiperCarousel} from "./ThumbSwiperCarousel";
-import {Box} from "@market-ui/falcon-ui";
+import {Box} from "@deity/falcon-ui";
 import GlobalStyleForFullscreenModal from "../../pages/shop/PDP/GlobalStylesForFullscreenModal";
 import {cssMobileTillMdOnly} from "src/styling/cssHelper";
 

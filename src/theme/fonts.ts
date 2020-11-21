@@ -1,4 +1,4 @@
-import {ThemeFonts} from "@market-ui/falcon-ui";
+import {ThemeFonts} from "@deity/falcon-ui";
 
 export const themedFonts: ThemeFonts = {
   'sans': '"fbextaza"',

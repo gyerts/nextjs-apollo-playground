@@ -1,5 +1,5 @@
 import React from "react";
-import {ThemedIcons} from "@market-ui/falcon-ui";
+import {ThemedIcons} from "@deity/falcon-ui";
 
 // @ts-ignore
 import ShoppingCart from 'react-feather/dist/icons/shopping-cart';

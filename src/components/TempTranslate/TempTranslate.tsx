@@ -1,6 +1,5 @@
 import React from 'react';
 import {useEffect} from "react";
-import {T} from "@market-ui/falcon-i18n";
 
 interface IProps {
   id: string
@@ -10,7 +9,7 @@ export const TT = ({ id }: IProps) => {
     console.warn(`================= translate "${id}" =================`);
   }, []);
 
-  return <T id={id} />;
+  return id;
 };
 
 export const tt = (id: IProps['id']) => {

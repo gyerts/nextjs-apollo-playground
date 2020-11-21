@@ -1,4 +1,4 @@
-import {ThemedComponentPropsWithVariants} from "@market-ui/falcon-ui";
+import {ThemedComponentPropsWithVariants} from "@deity/falcon-ui";
 
 // TODO: add colors to custom local interface/type
 

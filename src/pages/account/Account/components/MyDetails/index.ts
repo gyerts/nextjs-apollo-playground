@@ -1,1 +1,0 @@
-export {MyDetails} from './MyDetails';

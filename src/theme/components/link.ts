@@ -1,4 +1,4 @@
-import {Theme, ThemedComponentPropsWithVariants} from "@market-ui/falcon-ui";
+import {Theme, ThemedComponentPropsWithVariants} from "@deity/falcon-ui";
 
 export const underlineCss = (theme: Theme) => ({
   textDecoration: 'underline !important',

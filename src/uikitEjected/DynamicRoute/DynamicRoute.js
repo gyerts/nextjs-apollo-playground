@@ -1,11 +1,13 @@
 import React from 'react';
-import { Redirect } from 'react-router-dom';
-import { Text } from '@market-ui/falcon-ui';
+import { Text } from '@deity/falcon-ui';
 import { Router } from './../Router';
 import { UrlQuery } from './GetUrlQuery';
+import {useRouter} from 'next/router';
+
 
 export const DynamicRoute = props => {
   const { components, notFound } = props;
+  const {push} = useRouter();
 
   return (
     <Router>
@@ -24,7 +26,7 @@ export const DynamicRoute = props => {
               }
 
               if (url.redirect) {
-                return <Redirect to={`/${url.path}`} />;
+                return push(`/${url.path}`);
               }
 
               const Component = components[url.type];

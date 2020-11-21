@@ -1,4 +1,4 @@
-import {CSSObject, ThemedComponentPropsWithVariants} from "@market-ui/falcon-ui";
+import {CSSObject, ThemedComponentPropsWithVariants} from "@deity/falcon-ui";
 import {underlineCss} from "./link";
 
 const commonCss = (theme: any): CSSObject => ({

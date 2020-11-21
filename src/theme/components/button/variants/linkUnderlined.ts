@@ -1,4 +1,4 @@
-import {Theme} from "@market-ui/falcon-ui";
+import {Theme} from "@deity/falcon-ui";
 
 export const linkUnderlinedVariant = {
   css: ({theme}: {theme: Theme}) => ({

@@ -1,1 +1,0 @@
-export {MyAddresses} from './MyAddresses';

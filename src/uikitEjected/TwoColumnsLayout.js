@@ -1,4 +1,4 @@
-import { Box, themed } from '@market-ui/falcon-ui';
+import { Box, themed } from '@deity/falcon-ui';
 import { toGridTemplate } from './helpers';
 
 export const TwoColumnsLayoutArea = {

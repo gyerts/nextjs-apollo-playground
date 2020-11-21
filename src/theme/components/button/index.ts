@@ -1,4 +1,4 @@
-import {ThemedComponentPropsWithVariants} from "@market-ui/falcon-ui";
+import {ThemedComponentPropsWithVariants} from "@deity/falcon-ui";
 import {loaderVariant} from "./variants/loader";
 import {iconVariant} from "./variants/icon";
 import {disabledButtonCss, genButtonCss} from "./helpers";

@@ -18,7 +18,7 @@
 #### disabled
 >`disabled` attr is not supported by `a` tag, use `class` instead
 ```
-import {Link as RouterLink} from "react-router-dom";
+import RouterLink from "next/link";
 
 <Button
   as={RouterLink}

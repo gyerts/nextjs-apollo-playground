@@ -1,4 +1,4 @@
-import {ThemeColors, ThemedComponentPropsWithVariants} from "@market-ui/falcon-ui";
+import {ThemeColors, ThemedComponentPropsWithVariants} from "@deity/falcon-ui";
 
 export interface CustomThemeColors extends ThemeColors {
     lightBorder: string;

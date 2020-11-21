@@ -1,5 +1,5 @@
 import React from 'react';
-import {extractThemableProps, Text, ThemedComponentProps} from "@market-ui/falcon-ui";
+import {Text, extractThemableProps, ThemedComponentProps} from "@deity/falcon-ui";
 
 
 interface IProps extends ThemedComponentProps {

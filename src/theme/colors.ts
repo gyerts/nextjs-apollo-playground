@@ -1,4 +1,4 @@
-import {ThemeColors} from "@market-ui/falcon-ui";
+import {ThemeColors} from "@deity/falcon-ui";
 
 export const colorsFromDesign = {
   /**

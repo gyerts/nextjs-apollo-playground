@@ -1,4 +1,4 @@
-import {ThemeFontSizes} from "@market-ui/falcon-ui";
+import {ThemeFontSizes} from "@deity/falcon-ui";
 
 /**
  * https://app.zeplin.io/project/5f10358f95f8319efc97669f/screen/5f1838ef51883b85c6471fe6

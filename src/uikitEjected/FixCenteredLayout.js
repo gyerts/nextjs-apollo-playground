@@ -1,4 +1,4 @@
-import { Box, themed } from '@market-ui/falcon-ui';
+import { Box, themed } from '@deity/falcon-ui';
 
 export const FixCenteredLayout = themed({
   tag: Box,

@@ -1,5 +1,5 @@
 import {Swiper, SwiperSlide} from "swiper/react";
-import {Link} from 'react-router-dom';
+import Link from 'next/link';
 import SwiperCore, { Navigation, Pagination} from 'swiper';
 import {ResponsiveImage} from "../ResponsiveImage/ResponsiveImage";
 import React from "react";

@@ -1,7 +1,6 @@
-import gql from 'graphql-tag';
-import { Query } from '../../../../uikitEjected/Query/Query';
+import {gql} from '@apollo/client';
 
-const CMS_PAGE_CMS_QUERY = gql`
+export const CMS_PAGE_CMS_QUERY = gql`
 fragment Media on CMSMedia {
     code
     mime
@@ -97,10 +96,3 @@ query page($id: String, $CMSPageType: String, $CMSCode: String) {
   }
 }
 `;
-
-export class CmsPageQuery extends Query {
-  static defaultProps = {
-    query: CMS_PAGE_CMS_QUERY,
-    passErrors : true
-  };
-}

@@ -1,5 +1,5 @@
 import React from 'react';
-import {FlexLayout, Text} from '@market-ui/falcon-ui';
+import {FlexLayout, Text} from '@deity/falcon-ui';
 import {Price} from 'src/uikitEjected/Locale';
 
 interface IProductPrice {

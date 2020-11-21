@@ -1,5 +1,4 @@
 import gql from 'graphql-tag';
-import { Query } from '../Query';
 
 export const GET_BACKEND_CONFIG = gql`
   query BackendConfig {
@@ -12,8 +11,3 @@ export const GET_BACKEND_CONFIG = gql`
     }
   }
 `;
-export class BackendConfigQuery extends Query {
-  static defaultProps = {
-    query: GET_BACKEND_CONFIG
-  };
-}

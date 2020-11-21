@@ -1,1 +1,0 @@
-export {Tranzila} from './Tranzila';

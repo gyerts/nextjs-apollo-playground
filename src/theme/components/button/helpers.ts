@@ -1,4 +1,4 @@
-import {CSSObject} from "@market-ui/falcon-ui";
+import {CSSObject} from "@deity/falcon-ui";
 
 export const genButtonCss = (theme: any, primaryColor: string, hoveredColor: string): CSSObject => ({
   border: `1px solid ${theme.colors.black}`,

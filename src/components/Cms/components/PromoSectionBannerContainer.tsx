@@ -1,4 +1,4 @@
-import {Box, FlexLayout, Theme, withTheme} from '@market-ui/falcon-ui';
+import {Box, FlexLayout, Theme, withTheme} from '@deity/falcon-ui';
 import React from 'react';
 import {Carousel} from 'src/components/Carousel/Carousel';
 import {PromoBannerComponent, PromoSectionBanner} from "../../PromoSectionBanner/PromoSectionBanner";

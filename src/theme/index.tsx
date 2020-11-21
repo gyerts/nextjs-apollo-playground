@@ -1,5 +1,5 @@
 import React from 'react';
-import { createTheme } from '@market-ui/falcon-ui';
+import { createTheme } from '@deity/falcon-ui';
 
 import {themedIcons} from "./icons";
 import {themedColors} from "./colors";

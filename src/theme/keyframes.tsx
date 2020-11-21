@@ -1,4 +1,4 @@
-import {ThemeKeyframes} from "@market-ui/falcon-ui";
+import {ThemeKeyframes} from "@deity/falcon-ui";
 
 
 export const themedKeyframes: ThemeKeyframes = {

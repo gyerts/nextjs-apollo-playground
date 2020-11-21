@@ -1,5 +1,4 @@
-import gql from 'graphql-tag';
-import { Query } from './../Query';
+import {gql} from '@apollo/client';
 
 export const GET_COUNTRIES = gql`
   query Countries {
@@ -13,8 +12,8 @@ export const GET_COUNTRIES = gql`
   }
 `;
 
-export class CountriesQuery extends Query {
-  static defaultProps = {
-    query: GET_COUNTRIES
-  };
-}
+// export class CountriesQuery extends Query {
+//   static defaultProps = {
+//     query: GET_COUNTRIES
+//   };
+// }

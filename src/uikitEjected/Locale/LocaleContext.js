@@ -1,38 +1,40 @@
 import React from 'react';
-import { BackendConfigQuery } from '../BackendConfig';
 
 const LocaleContext = React.createContext({});
 
 export const LocaleProvider = ({ children, priceFormatOptions = {}, dateTimeFormatOptions = {}, ...props }) => (
-  <BackendConfigQuery>
-    {({ backendConfig }) => {
-      const { activeLocale, shop } = backendConfig;
-
-      const locale = activeLocale || 'en';
-      const localeFallback = 'en';
-      const currency = props.currency || shop.activeCurrency || 'EUR';
-
-      return (
-        <LocaleContext.Provider
-          value={{
-            locale,
-            localeFallback,
-            currency,
-            priceFormat: priceFormatFactory([priceFormatOptions.locale, locale, localeFallback], {
-              currency,
-              ...priceFormatOptions
-            }),
-            dateTimeFormat: dateTimeFormatFactory([dateTimeFormatOptions.locale, locale, localeFallback], {
-              ...dateTimeFormatOptions
-            })
-          }}
-        >
-          {children}
-        </LocaleContext.Provider>
-      );
-    }}
-  </BackendConfigQuery>
-);
+children
+  );
+//   export const LocaleProvider = ({ children, priceFormatOptions = {}, dateTimeFormatOptions = {}, ...props }) => (
+//   <BackendConfigQuery>
+//     {({ backendConfig }) => {
+//       const { activeLocale, shop } = backendConfig;
+//
+//       const locale = activeLocale || 'en';
+//       const localeFallback = 'en';
+//       const currency = props.currency || shop.activeCurrency || 'EUR';
+//
+//       return (
+//         <LocaleContext.Provider
+//           value={{
+//             locale,
+//             localeFallback,
+//             currency,
+//             priceFormat: priceFormatFactory([priceFormatOptions.locale, locale, localeFallback], {
+//               currency,
+//               ...priceFormatOptions
+//             }),
+//             dateTimeFormat: dateTimeFormatFactory([dateTimeFormatOptions.locale, locale, localeFallback], {
+//               ...dateTimeFormatOptions
+//             })
+//           }}
+//         >
+//           {children}
+//         </LocaleContext.Provider>
+//       );
+//     }}
+//   </BackendConfigQuery>
+// );
 
 export const Locale = ({ children }) => (
   <LocaleContext.Consumer>{({ localeFallback, ...props }) => children({ ...props })}</LocaleContext.Consumer>

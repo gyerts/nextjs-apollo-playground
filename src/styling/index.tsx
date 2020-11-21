@@ -1,6 +1,6 @@
 
 import React from 'react';
-import {extractThemableProps, themed, ThemedComponentProps, CSSObject} from "@market-ui/falcon-ui";
+import {extractThemableProps, themed, ThemedComponentProps, CSSObject} from "@deity/falcon-ui";
 
 interface IIconProps extends ThemedComponentProps {
   onClick?: () => void

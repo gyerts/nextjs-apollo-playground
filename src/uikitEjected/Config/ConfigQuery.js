@@ -1,5 +1,4 @@
-import gql from 'graphql-tag';
-import { Query } from '../Query/Query';
+import {gql} from '@apollo/client';
 
 export const GET_CONFIG = gql`
   query ClientConfig($key: String!) {
@@ -7,8 +6,8 @@ export const GET_CONFIG = gql`
   }
 `;
 
-export class ConfigQuery extends Query {
-  static defaultProps = {
-    query: GET_CONFIG
-  };
-}
+// export class ConfigQuery extends Query {
+//   static defaultProps = {
+//     query: GET_CONFIG
+//   };
+// }

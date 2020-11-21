@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { themed, Text } from '@market-ui/falcon-ui';
+import { themed, Text } from '@deity/falcon-ui';
 import { Locale } from './LocaleContext';
 
 const PriceInnerDom = props => {

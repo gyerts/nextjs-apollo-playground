@@ -1,4 +1,4 @@
-import {ThemeBreakpoints} from "@market-ui/falcon-ui/dist/theme";
+import {ThemeBreakpoints} from "@deity/falcon-ui/dist/theme";
 
 export const themedBreakpoints: ThemeBreakpoints = {
     xs: 0,

@@ -4,7 +4,7 @@ import {ProductCarousel} from './ProductCarousel';
 import {PromoCarousel} from './PromoCarousel';
 import styled from 'styled-components';
 import {iconSpriteUrl} from 'src/theme/variables';
-import {Theme, withTheme, Box} from '@market-ui/falcon-ui';
+import {Theme, withTheme, Box} from '@deity/falcon-ui';
 import {IFeaturedProduct} from 'src/components/FeaturedProduct/FeaturedProduct';
 import {PromoBannerComponent} from "../PromoSectionBanner/PromoSectionBanner";
 

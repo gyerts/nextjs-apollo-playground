@@ -1,4 +1,4 @@
-import {Theme} from "@market-ui/falcon-ui";
+import {Theme} from "@deity/falcon-ui";
 import {genButtonCss} from "../helpers";
 
 

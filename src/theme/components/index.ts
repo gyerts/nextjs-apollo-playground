@@ -1,5 +1,5 @@
 import {themedDropdown, themedDropdownLabel, themedDropdownMenu, themedDropdownMenuItem} from './dropdown';
-import {ThemedComponents} from "@market-ui/falcon-ui";
+import {ThemedComponents} from "@deity/falcon-ui";
 import {themedIcon} from "./icon";
 import {themedButton} from "./button";
 import {themedLink} from "./link";

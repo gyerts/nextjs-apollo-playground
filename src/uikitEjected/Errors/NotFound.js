@@ -1,7 +1,6 @@
 import React from 'react';
-import { Link as RouterLink } from 'react-router-dom';
-import { T } from '@market-ui/falcon-i18n';
-import { H1, Text, Button, FlexLayout, GridLayout } from '@market-ui/falcon-ui';
+import RouterLink from 'next/link';
+import { H1, Text, Button, FlexLayout, GridLayout } from '@deity/falcon-ui';
 
 export const NotFound = ({ location }) => {
   const { pathname } = location;

@@ -1,4 +1,4 @@
-import {ThemeSpacing} from "@market-ui/falcon-ui";
+import {ThemeSpacing} from "@deity/falcon-ui";
 
 
 export const themedSpacing: ThemeSpacing = {

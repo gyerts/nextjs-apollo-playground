@@ -1,5 +1,4 @@
-import {useLayoutListenerContext} from "../components/LayoutIndicator/context";
-import {CSSObject} from "@market-ui/falcon-ui";
+import {CSSObject} from "@deity/falcon-ui";
 import {themedBreakpoints} from "src/theme/breakpoints";
 
 export type BreakpointsArray = ('xs' | 'sm' | 'md' | 'lg' | 'xl')[];
@@ -40,14 +39,14 @@ export const bothResolutions = <T extends string>(mobile: T, desktop: T) => {
   };
 };
 
-export const useMobileBgFullWidthCss = (): any => {
-  const { layout, isMobile } = useLayoutListenerContext();
-
-  return isMobile(layout) ? {
-    marginLeft: -16,
-    marginRight: -16,
-  } : {};
-};
+// export const useMobileBgFullWidthCss = (): any => {
+//   const { layout, isMobile } = useLayoutListenerContext();
+//
+//   return isMobile(layout) ? {
+//     marginLeft: -16,
+//     marginRight: -16,
+//   } : {};
+// };
 
 export const cssMobileOnly = (css: CSSObject): any => {
   return {

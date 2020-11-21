@@ -1,5 +1,5 @@
 import React from 'react';
-import { Select, Option } from '@market-ui/falcon-ui';
+import { Select, Option } from '@deity/falcon-ui';
 
 export const CountrySelector = props => {
   const { items, value, onChange, ...restProps } = props;

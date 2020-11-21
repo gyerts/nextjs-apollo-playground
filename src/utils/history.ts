@@ -1,11 +1,11 @@
 import {useCallback, useState} from "react";
-import {useHistory} from "react-router";
+import {useRouter} from "next/router";
 import {UnregisterCallback} from "history";
 
 let _unblock: UnregisterCallback = undefined;
 
 export function useHistoryBlock() {
-  const history = useHistory();
+  const history = useRouter();
   const [locked, setLocked] = useState();
 
   const unblock = useCallback(function () {

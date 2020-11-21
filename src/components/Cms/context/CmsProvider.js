@@ -1,9 +1,10 @@
 import React, { useMemo } from 'react';
-import { withRouter } from 'react-router-dom';
 import { CmsContext } from './CmsContext';
 import * as cmsComponents from '../components';
-import { CmsPageQuery } from '../graphql/server/CmsPageQuery';
 import { PageConfig } from '../common/PageConfig';
+import {withRouter} from 'next/router';
+import {useQuery} from "@apollo/client";
+import {CMS_PAGE_CMS_QUERY} from "src/components/Cms";
 
 const buildSlotComponent = slot => {
   if (slot.components) {
@@ -25,40 +26,47 @@ const getSlotMap = (page) => {
       comps: buildSlotComponent(slot),
       ...slot
     };
-    map.bySlotId[slot.slotId] = theSlot
+    map.bySlotId[slot.slotId] = theSlot;
     map.byPosition[slot.position] = theSlot;
     return map;
   },{bySlotId:{}, byPosition:{}});
 };
 
-const CmsPage = ({  children, location }) => {
+const CmsPageWraper = ({ children, location }) => {
   return (
     <PageConfig location={location}>
-      {({pageConfig})=> (
-        <CmsPageQuery
-          variables={{
-            id : pageConfig.CMSPageId,
-            CMSPageType: pageConfig.CMSPageType,
-            CMSCode: pageConfig.CMSCode
-          }}
-        >
-          {({ page, errorCode, error }) => {
-            let slotMap = page && page.contentSlots ? getSlotMap(page) : {};
-            if (!pageConfig.layout && page && page.template) {
-              pageConfig.layout = page.template;
-            }
-            return <CmsContext.Provider value={{slotMap, pageConfig}}>
-              {children}
-            </CmsContext.Provider>
-          }}
-        </CmsPageQuery>
-        )}
+      {({pageConfig})=> <CmsPage pageConfig={pageConfig} />}
     </PageConfig>
   )
 };
 
+const CmsPage = ({pageConfig, children, location}) => {
+  const {data, errorCode, loading, error} = useQuery(CMS_PAGE_CMS_QUERY, {variables: {
+      id : pageConfig.CMSPageId,
+      CMSPageType: pageConfig.CMSPageType,
+      CMSCode: pageConfig.CMSCode
+    }});
+
+  console.log('CmsPage', data, errorCode, loading, error);
+
+  if (loading || error) {
+    return null;
+  }
+
+  let slotMap = data.page && data.page.contentSlots ? getSlotMap(data.page) : {};
+  if (!pageConfig.layout && data.page && data.page.template) {
+    pageConfig.layout = data.page.template;
+  }
+
+  return (
+    <CmsContext.Provider value={{slotMap, pageConfig}}>
+      {children}
+    </CmsContext.Provider>
+  );
+};
+
 const CmsWrappedProvider = ({ location, children, ...rest }) => {
-  return useMemo(() => CmsPage( {children, location} ),[location]);
+  return useMemo(() => CmsPageWraper( {children, location} ),[location]);
 }
 
 export const CmsProvider = withRouter(CmsWrappedProvider);

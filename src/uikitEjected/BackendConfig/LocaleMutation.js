@@ -1,5 +1,4 @@
-import gql from 'graphql-tag';
-import { Mutation } from 'react-apollo';
+import {gql} from '@apollo/client';
 
 export const SET_LOCALE = gql`
   mutation SetLocale($locale: String!) {
@@ -9,7 +8,7 @@ export const SET_LOCALE = gql`
   }
 `;
 
-export class SetLocaleMutation extends Mutation {
+export class SetLocaleMutation  {
   static defaultProps = {
     mutation: SET_LOCALE,
     awaitRefetchQueries: true,

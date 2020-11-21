@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Theme } from '@market-ui/falcon-ui';
+import { Theme } from '@deity/falcon-ui';
 import { themedBreakpoints } from 'src/theme/breakpoints';
-import { Box, Image, Link, H4 } from '@market-ui/falcon-ui';
+import { Box, Image, Link, H4 } from '@deity/falcon-ui';
 
 export interface PromoBannerComponent {
     url: string;
