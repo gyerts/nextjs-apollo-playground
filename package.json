@@ -3,11 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next production",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+    "@apollo/client": "^3.2.7",
     "@nexus/schema": "^0.18.0",
     "apollo-server-micro": "^2.19.0",
     "date-fns": "^2.16.1",
