@@ -13,7 +13,7 @@ const alreadyLoadedScript: {[key: string]: boolean} = {};
  * @param url
  */
 export const useScript = (url: string) => {
-  const [scriptLoaded, setScriptLoaded] = useState();
+  const [scriptLoaded, setScriptLoaded] = useState<boolean>();
 
   useEffect(function () {
     if ( !alreadyAddedScripts[url] ) {
