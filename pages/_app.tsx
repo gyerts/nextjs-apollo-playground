@@ -17,9 +17,10 @@ function MyApp({ Component, pageProps }) {
   return (
     <ApolloProvider client={client}>
       <ThemeProvider theme={theme}>
-      <CmsProvider>
-        <Component {...pageProps} />
-      </CmsProvider>
+        hi
+        <CmsProvider>
+          <Component {...pageProps} />
+        </CmsProvider>
       </ThemeProvider>
     </ApolloProvider>
   )
