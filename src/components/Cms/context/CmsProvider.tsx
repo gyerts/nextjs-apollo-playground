@@ -30,7 +30,7 @@ const getSlotMap = (page) => {
 
 const CmsPage = ({children, pageConfig, page}) => {
   let slotMap = page && page.contentSlots ? getSlotMap(page) : {};
-  if (!pageConfig.layout && page && page.template) {
+  if (pageConfig && !pageConfig.layout && page && page.template) {
     pageConfig.layout = page.template;
   }
 

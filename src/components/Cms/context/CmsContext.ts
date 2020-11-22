@@ -1,3 +1,3 @@
 import React from 'react';
 
-export const CmsContext = React.createContext();
+export const CmsContext = React.createContext({});

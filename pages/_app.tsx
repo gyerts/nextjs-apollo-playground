@@ -21,12 +21,12 @@ function MyApp({ Component, pageProps }) {
   )
 }
 
-MyApp.getInitialProps = async (appContext: AppContext) => {
-  // isServer();
-  return {
-    pageProps: {
-    },
-  }
-};
+// MyApp.getInitialProps = async (appContext: AppContext) => {
+//   // isServer();
+//   return {
+//     pageProps: {
+//     },
+//   }
+// };
 
 export default MyApp;

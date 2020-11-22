@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { CmsContext } from './context/CmsContext';
 
 export const CmsSlot = ({ id, position }: any) => {
+  // @ts-ignore
   const {slotMap} = useContext(CmsContext);
 
   const slot = id ? slotMap.bySlotId[id] : slotMap.byPosition[position];
