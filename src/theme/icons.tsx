@@ -1,85 +1,50 @@
 import React from "react";
 import {ThemedIcons} from "@deity/falcon-ui";
 
-// @ts-ignore
-import ShoppingCart from 'react-feather/dist/icons/shopping-cart';
-// @ts-ignore
-import ChevronDown from 'react-feather/dist/icons/chevron-down';
-// @ts-ignore
-import ChevronUp from 'react-feather/dist/icons/chevron-up';
-// @ts-ignore
-import ChevronRight from 'react-feather/dist/icons/chevron-right';
-// @ts-ignore
-import User from 'react-feather/dist/icons/user';
-// @ts-ignore
-import Close from 'react-feather/dist/icons/x';
-// @ts-ignore
-import LogOut from 'react-feather/dist/icons/log-out';
-// @ts-ignore
-import Remove from 'react-feather/dist/icons/x-circle';
-// @ts-ignore
-import ChevronsRight from 'react-feather/dist/icons/chevrons-right';
-// @ts-ignore
-import ChevronsLeft from 'react-feather/dist/icons/chevrons-left';
-// @ts-ignore
-import Lock from 'react-feather/dist/icons/lock';
-// @ts-ignore
-import Trash from 'react-feather/dist/icons/trash-2';
-// @ts-ignore
-import Check from 'react-feather/dist/icons/check';
-// @ts-ignore
-// @ts-ignore
-import CheckCircle from 'react-feather/dist/icons/check-circle';
-// @ts-ignore
-import Eye from 'react-feather/dist/icons/eye';
-// @ts-ignore
-import EyeOff from 'react-feather/dist/icons/eye-off';
-
-
 
 // @ts-ignore
 export const themedIcons: ThemedIcons = {
-  cart: { icon: ShoppingCart },
-  user: { icon: User },
-  arrowRight: { icon: ChevronRight },
+  cart: { icon: () => null },
+  user: { icon: () => null },
+  arrowRight: { icon: () => null },
   dropdownArrowDown: {
-    icon: ChevronDown,
+    icon: () => null,
     size: 'md',
     ml: 'xs'
   },
   dropdownArrowUp: {
-    icon: ChevronUp,
+    icon: () => null,
     size: 'md',
     ml: 'xs'
   },
   buttonArrowRight: {
-    icon: ChevronRight,
+    icon: () => null,
     size: 'md',
     ml: 'xs',
     stroke: 'white'
   },
   close: {
-    icon: Close,
+    icon: () => null,
     css: {
       cursor: 'pointer'
     }
   },
-  logOut: { icon: LogOut },
-  remove: { icon: Remove },
+  logOut: { icon: () => null },
+  remove: { icon: () => null },
   nextPage: {
-    icon: ChevronsRight,
+    icon: () => null,
     stroke: 'black'
   },
   prevPage: {
-    icon: ChevronsLeft,
+    icon: () => null,
     stroke: 'black'
   },
-  lock: { icon: Lock },
-  trash: { icon: Trash },
-  check: { icon: Check },
-  checkCircle: { icon: CheckCircle },
-  eye: { icon: Eye },
-  eyeOff: { icon: EyeOff },
+  lock: { icon: () => null },
+  trash: { icon: () => null },
+  check: { icon: () => null },
+  checkCircle: { icon: () => null },
+  eye: { icon: () => null },
+  eyeOff: { icon: () => null },
   logo: {
     icon: () => (
       <svg

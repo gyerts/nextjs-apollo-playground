@@ -1,8 +1,7 @@
-import React, { useMemo } from 'react';
+import React from 'react';
 import { CmsContext } from './CmsContext';
 import * as cmsComponents from '../components';
 import { PageConfig } from '../common/PageConfig';
-import {withRouter} from 'next/router';
 import {useQuery} from "@apollo/client";
 import {CMS_PAGE_CMS_QUERY} from "src/components/Cms";
 
@@ -32,15 +31,15 @@ const getSlotMap = (page) => {
   },{bySlotId:{}, byPosition:{}});
 };
 
-const CmsPageWraper = ({ children, location }) => {
+const CmsPage = ({ children }) => {
   return (
-    <PageConfig location={location}>
-      {({pageConfig})=> <CmsPage pageConfig={pageConfig} />}
+    <PageConfig>
+      {({pageConfig})=> <CmsPageImpl pageConfig={pageConfig} children={children} />}
     </PageConfig>
   )
 };
 
-const CmsPage = ({pageConfig, children, location}) => {
+const CmsPageImpl = ({pageConfig, children}) => {
   const {data, errorCode, loading, error} = useQuery(CMS_PAGE_CMS_QUERY, {variables: {
       id : pageConfig.CMSPageId,
       CMSPageType: pageConfig.CMSPageType,
@@ -65,8 +64,4 @@ const CmsPage = ({pageConfig, children, location}) => {
   );
 };
 
-const CmsWrappedProvider = ({ location, children, ...rest }) => {
-  return useMemo(() => CmsPageWraper( {children, location} ),[location]);
-}
-
-export const CmsProvider = withRouter(CmsWrappedProvider);
+export const CmsProvider = CmsPage;

@@ -28,7 +28,92 @@ export interface NexusGenScalars {
 }
 
 export interface NexusGenRootTypes {
+  CMSMedia: { // root type
+    altText?: string | null; // String
+    code?: string | null; // String
+    desktop?: NexusGenRootTypes['CMSMedia'] | null; // CMSMedia
+    downloadUrl?: string | null; // String
+    media?: NexusGenRootTypes['CMSMedia'] | null; // CMSMedia
+    mime?: string | null; // String
+    mobile?: NexusGenRootTypes['CMSMedia'] | null; // CMSMedia
+    tablet?: NexusGenRootTypes['CMSMedia'] | null; // CMSMedia
+    url?: string | null; // String
+    widescreen?: NexusGenRootTypes['CMSMedia'] | null; // CMSMedia
+  }
+  CMSProduct: { // root type
+    code?: string | null; // String
+    media?: NexusGenRootTypes['CMSMedia'] | null; // CMSMedia
+    price?: string | null; // String
+    title?: string | null; // String
+    url?: string | null; // String
+  }
+  Component: { // root type
+    banners?: string | null; // String
+    categoryCode?: string | null; // String
+    components?: Array<NexusGenRootTypes['Component'] | null> | null; // [Component]
+    container?: string | null; // String
+    content?: string | null; // String
+    displayProductImages?: string | null; // String
+    displayProducts?: string | null; // String
+    displaySuggestions?: string | null; // String
+    external?: string | null; // String
+    flexType?: string | null; // String
+    htmlClass?: string | null; // String
+    image?: NexusGenRootTypes['CMSMedia'] | null; // CMSMedia
+    itemsNumber?: string | null; // String
+    maxProducts?: string | null; // String
+    maxSuggestions?: string | null; // String
+    media?: NexusGenRootTypes['CMSMedia'] | null; // CMSMedia
+    minCharactersBeforeRequest?: string | null; // String
+    modifiedtime?: string | null; // String
+    name?: string | null; // String
+    numberOfItems?: string | null; // String
+    products?: Array<NexusGenRootTypes['CMSProduct'] | null> | null; // [CMSProduct]
+    sequence?: string | null; // String
+    showLanguageCurrency?: string | null; // String
+    shownProductCount?: string | null; // String
+    sortByField?: string | null; // String
+    text?: string | null; // String
+    title?: string | null; // String
+    totalDisplay?: string | null; // String
+    typeCode?: string | null; // String
+    uid?: string | null; // String
+    url?: string | null; // String
+    urlLink?: string | null; // String
+    uuid?: string | null; // String
+    waitTimeBeforeRequest?: string | null; // String
+    wrapAfter?: string | null; // String
+  }
+  ContentSlot: { // root type
+    components?: Array<NexusGenRootTypes['Component'] | null> | null; // [Component]
+    name?: string | null; // String
+    position?: string | null; // String
+    slotId?: string | null; // String
+    slotShared?: boolean | null; // Boolean
+    slotUuid?: string | null; // String
+  }
+  Page: { // root type
+    contentSlots?: Array<NexusGenRootTypes['ContentSlot'] | null> | null; // [ContentSlot]
+    description?: string | null; // String
+    label?: string | null; // String
+    page?: string | null; // String
+    robotTag?: string | null; // String
+    slug?: NexusGenRootTypes['Slug'] | null; // Slug
+    template?: string | null; // String
+    title?: string | null; // String
+  }
   Query: {};
+  RoutingConfig: { // root type
+    CMSCode?: string | null; // String
+    CMSPageId?: string | null; // String
+    CMSPageType?: string | null; // String
+    layout?: string | null; // String
+    pathRegex: string; // String!
+    type?: string | null; // String
+  }
+  Slug: { // root type
+    current?: string | null; // String
+  }
 }
 
 export interface NexusGenAllTypes extends NexusGenRootTypes {
@@ -40,18 +125,197 @@ export interface NexusGenAllTypes extends NexusGenRootTypes {
 }
 
 export interface NexusGenFieldTypes {
-  Query: { // field return type
+  CMSMedia: { // field return type
+    altText: string | null; // String
+    code: string | null; // String
+    desktop: NexusGenRootTypes['CMSMedia'] | null; // CMSMedia
+    downloadUrl: string | null; // String
+    media: NexusGenRootTypes['CMSMedia'] | null; // CMSMedia
+    mime: string | null; // String
+    mobile: NexusGenRootTypes['CMSMedia'] | null; // CMSMedia
+    tablet: NexusGenRootTypes['CMSMedia'] | null; // CMSMedia
+    url: string | null; // String
+    widescreen: NexusGenRootTypes['CMSMedia'] | null; // CMSMedia
+  }
+  CMSProduct: { // field return type
+    code: string | null; // String
+    media: NexusGenRootTypes['CMSMedia'] | null; // CMSMedia
+    price: string | null; // String
+    title: string | null; // String
+    url: string | null; // String
+  }
+  Component: { // field return type
+    banners: string | null; // String
+    categoryCode: string | null; // String
+    components: Array<NexusGenRootTypes['Component'] | null> | null; // [Component]
+    container: string | null; // String
+    content: string | null; // String
+    displayProductImages: string | null; // String
+    displayProducts: string | null; // String
+    displaySuggestions: string | null; // String
+    external: string | null; // String
+    flexType: string | null; // String
+    htmlClass: string | null; // String
+    image: NexusGenRootTypes['CMSMedia'] | null; // CMSMedia
+    itemsNumber: string | null; // String
+    maxProducts: string | null; // String
+    maxSuggestions: string | null; // String
+    media: NexusGenRootTypes['CMSMedia'] | null; // CMSMedia
+    minCharactersBeforeRequest: string | null; // String
+    modifiedtime: string | null; // String
     name: string | null; // String
+    numberOfItems: string | null; // String
+    products: Array<NexusGenRootTypes['CMSProduct'] | null> | null; // [CMSProduct]
+    sequence: string | null; // String
+    showLanguageCurrency: string | null; // String
+    shownProductCount: string | null; // String
+    sortByField: string | null; // String
+    text: string | null; // String
+    title: string | null; // String
+    totalDisplay: string | null; // String
+    typeCode: string | null; // String
+    uid: string | null; // String
+    url: string | null; // String
+    urlLink: string | null; // String
+    uuid: string | null; // String
+    waitTimeBeforeRequest: string | null; // String
+    wrapAfter: string | null; // String
+  }
+  ContentSlot: { // field return type
+    components: Array<NexusGenRootTypes['Component'] | null> | null; // [Component]
+    name: string | null; // String
+    position: string | null; // String
+    slotId: string | null; // String
+    slotShared: boolean | null; // Boolean
+    slotUuid: string | null; // String
+  }
+  Page: { // field return type
+    contentSlots: Array<NexusGenRootTypes['ContentSlot'] | null> | null; // [ContentSlot]
+    description: string | null; // String
+    label: string | null; // String
+    page: string | null; // String
+    robotTag: string | null; // String
+    slug: NexusGenRootTypes['Slug'] | null; // Slug
+    template: string | null; // String
+    title: string | null; // String
+  }
+  Query: { // field return type
+    page: NexusGenRootTypes['Page'] | null; // Page
+    routingConfig: Array<NexusGenRootTypes['RoutingConfig'] | null> | null; // [RoutingConfig]
+  }
+  RoutingConfig: { // field return type
+    CMSCode: string | null; // String
+    CMSPageId: string | null; // String
+    CMSPageType: string | null; // String
+    layout: string | null; // String
+    pathRegex: string; // String!
+    type: string | null; // String
+  }
+  Slug: { // field return type
+    current: string | null; // String
   }
 }
 
 export interface NexusGenFieldTypeNames {
-  Query: { // field return type name
+  CMSMedia: { // field return type name
+    altText: 'String'
+    code: 'String'
+    desktop: 'CMSMedia'
+    downloadUrl: 'String'
+    media: 'CMSMedia'
+    mime: 'String'
+    mobile: 'CMSMedia'
+    tablet: 'CMSMedia'
+    url: 'String'
+    widescreen: 'CMSMedia'
+  }
+  CMSProduct: { // field return type name
+    code: 'String'
+    media: 'CMSMedia'
+    price: 'String'
+    title: 'String'
+    url: 'String'
+  }
+  Component: { // field return type name
+    banners: 'String'
+    categoryCode: 'String'
+    components: 'Component'
+    container: 'String'
+    content: 'String'
+    displayProductImages: 'String'
+    displayProducts: 'String'
+    displaySuggestions: 'String'
+    external: 'String'
+    flexType: 'String'
+    htmlClass: 'String'
+    image: 'CMSMedia'
+    itemsNumber: 'String'
+    maxProducts: 'String'
+    maxSuggestions: 'String'
+    media: 'CMSMedia'
+    minCharactersBeforeRequest: 'String'
+    modifiedtime: 'String'
     name: 'String'
+    numberOfItems: 'String'
+    products: 'CMSProduct'
+    sequence: 'String'
+    showLanguageCurrency: 'String'
+    shownProductCount: 'String'
+    sortByField: 'String'
+    text: 'String'
+    title: 'String'
+    totalDisplay: 'String'
+    typeCode: 'String'
+    uid: 'String'
+    url: 'String'
+    urlLink: 'String'
+    uuid: 'String'
+    waitTimeBeforeRequest: 'String'
+    wrapAfter: 'String'
+  }
+  ContentSlot: { // field return type name
+    components: 'Component'
+    name: 'String'
+    position: 'String'
+    slotId: 'String'
+    slotShared: 'Boolean'
+    slotUuid: 'String'
+  }
+  Page: { // field return type name
+    contentSlots: 'ContentSlot'
+    description: 'String'
+    label: 'String'
+    page: 'String'
+    robotTag: 'String'
+    slug: 'Slug'
+    template: 'String'
+    title: 'String'
+  }
+  Query: { // field return type name
+    page: 'Page'
+    routingConfig: 'RoutingConfig'
+  }
+  RoutingConfig: { // field return type name
+    CMSCode: 'String'
+    CMSPageId: 'String'
+    CMSPageType: 'String'
+    layout: 'String'
+    pathRegex: 'String'
+    type: 'String'
+  }
+  Slug: { // field return type name
+    current: 'String'
   }
 }
 
 export interface NexusGenArgTypes {
+  Query: {
+    page: { // args
+      CMSCode?: string | null; // String
+      CMSPageType?: string | null; // String
+      id?: string | null; // String
+    }
+  }
 }
 
 export interface NexusGenAbstractResolveReturnTypes {
@@ -59,7 +323,7 @@ export interface NexusGenAbstractResolveReturnTypes {
 
 export interface NexusGenInheritedFields {}
 
-export type NexusGenObjectNames = "Query";
+export type NexusGenObjectNames = "CMSMedia" | "CMSProduct" | "Component" | "ContentSlot" | "Page" | "Query" | "RoutingConfig" | "Slug";
 
 export type NexusGenInputNames = never;
 

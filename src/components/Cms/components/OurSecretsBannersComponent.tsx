@@ -40,7 +40,7 @@ export const OurSecretsBannersComponent = (props: IOurSecretsBannersComponentPro
     <OurSecretsBannersLayout>
       {props.components.map((item: Component, index: number)=>(
         <Box css={{'width': '100%'}} key={index}>
-          <Link to={item.urlLink}>
+          <Link href={item.urlLink}>
             <Image css={{'width': '100%'}} src={item.media.url} alt={item.media.altText} />
           </Link>
         </Box>

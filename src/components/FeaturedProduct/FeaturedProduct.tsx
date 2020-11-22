@@ -18,7 +18,7 @@ export interface IFeaturedProduct {
 
 export const FeaturedProduct = (props: IFeaturedProduct) => {
   return (
-    <Link as={RouterLink} to={props.url}>
+    <RouterLink href={props.url}>
       <FlexLayout flexDirection='column' alignItems='center' justifyContent='center' flexWrap='nowrap'>
         <Image src={props.media.url} alt={props.media.altText} />
         <H3 fontWeight='regular'
@@ -40,6 +40,6 @@ export const FeaturedProduct = (props: IFeaturedProduct) => {
           {props.price}
         </Box>
       </FlexLayout>
-    </Link>
+    </RouterLink>
   )
 };

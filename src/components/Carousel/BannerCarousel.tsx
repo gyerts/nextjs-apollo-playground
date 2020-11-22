@@ -35,7 +35,7 @@ export const BannerCarousel = (props: CarouselProps) => {
           }
 
           return (<SwiperSlide key={slideContent.src}>
-            <Link to={slideContent.link}>
+            <Link href={slideContent.link}>
               <ResponsiveImage {...imageProps} />
             </Link>
           </SwiperSlide>

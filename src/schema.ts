@@ -7,7 +7,7 @@ export const schema = makeSchema({
     Query,
   },
   outputs: {
-    schema: path.join(process.cwd(), 'schema'),
+    schema: path.join(process.cwd(), 'schema.graphql'),
     typegen: path.join(process.cwd(), 'src', 'generated', 'gql-types.ts'),
   }
 });

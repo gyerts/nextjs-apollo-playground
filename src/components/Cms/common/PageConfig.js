@@ -1,11 +1,12 @@
 import React from 'react';
 import {GET_CONFIG} from '../graphql/server/RoutingConfigQuery';
 import {useQuery} from "@apollo/client";
+import {useRouter} from "next/router";
 
-const getPageConfig = (location,routingConfig) => {
+const getPageConfig = (location, routingConfig) => {
   for (let config of routingConfig) {
     const pathRegex = RegExp(config.pathRegex);
-    const fullPath = location.pathname + location.search;
+    const fullPath = location.asPath;
 
     if (pathRegex.test(fullPath)){
       const result = pathRegex.exec(fullPath);
@@ -30,10 +31,9 @@ const getPageConfig = (location,routingConfig) => {
 };
 
 export const PageConfig = (props) => {
-  const {children,location}  = props;
+  const {children}  = props;
   const {data, error, loading} = useQuery(GET_CONFIG);
-
-  console.log('PageConfig', {error, loading, data});
+  const location = useRouter();
 
   if (error || loading) {
     return null;
