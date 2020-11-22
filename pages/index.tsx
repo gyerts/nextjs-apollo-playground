@@ -1,14 +1,16 @@
 import React from "react";
-import {CmsSlot} from "../src/components/Cms";
 import styled from 'styled-components';
 import {Box} from "@deity/falcon-ui";
+import {GetServerSideProps, GetStaticProps} from "next";
 
 const HomeLayout = (props) => {
   return (
     <Box className={props.className}>
-      <CmsSlot position="CMSMainTop" />
-      <CmsSlot position="CMSMainCenter" />
-      <CmsSlot position="CMSMainBottom" />
+      <div>{props.ValFromGetServerSideProps}</div>
+      <div>{props.ValFromGetStaticProps}</div>
+      {/*<CmsSlot position="CMSMainTop" />*/}
+      {/*<CmsSlot position="CMSMainCenter" />*/}
+      {/*<CmsSlot position="CMSMainBottom" />*/}
     </Box>
   )
 };
@@ -28,6 +30,14 @@ const Home = styled(HomeLayout)`
         }
     }
 `;
+
+// export const getServerSideProps: GetServerSideProps = async (context) => {
+//   return { props: {ValFromGetServerSideProps: 'ValFromGetServerSideProps!'} }
+// };
+
+export const getStaticProps: GetStaticProps = async (context) => {
+  return { props: {ValFromGetStaticProps: 'ValFromGetStaticProps!'} }
+};
 
 export default Home;
 
