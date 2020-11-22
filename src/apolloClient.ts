@@ -9,9 +9,9 @@ let apolloClient;
 
 function createApolloClient() {
   return new ApolloClient({
-    // ssrMode: typeof window === 'undefined',
+    ssrMode: typeof window === 'undefined',
     link: new HttpLink({
-      uri: "http://localhost:3000/api/graphql",
+      uri: "/api/graphql",
       // credentials: 'same-origin', // Additional fetch() options like `credentials` or `headers`
     }),
     cache: new InMemoryCache(),
