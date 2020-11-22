@@ -43,7 +43,7 @@ const Home = styled(HomeLayout)`
 //   return { props: {ValFromGetInitialProps: 'ValFromGetInitialProps!'} }
 // };
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const apolloClient = initializeApollo();
 
   const pageConfig = {

@@ -9,9 +9,9 @@ let apolloClient;
 
 function createApolloClient() {
   return new ApolloClient({
-    ssrMode: typeof window === 'undefined',
+    // ssrMode: typeof window === 'undefined',
     link: new HttpLink({
-      uri: "https://vercel.com/gyerts/nextjs-apollo-playground/api/graphql",
+      uri: "http://localhost:3000/api/graphql",
       // credentials: 'same-origin', // Additional fetch() options like `credentials` or `headers`
     }),
     cache: new InMemoryCache(),
