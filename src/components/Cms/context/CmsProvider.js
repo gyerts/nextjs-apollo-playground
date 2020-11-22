@@ -33,13 +33,21 @@ const getSlotMap = (page) => {
 
 const CmsPage = ({ children }) => {
   return (
-    <PageConfig>
-      {({pageConfig})=> <CmsPageImpl pageConfig={pageConfig} children={children} />}
-    </PageConfig>
+    <CmsPageImpl children={children} />
   )
 };
 
-const CmsPageImpl = ({pageConfig, children}) => {
+const CmsPageImpl = ({children}) => {
+  const pageConfig = {
+    CMSCode: null,
+    CMSPageId: "homepage",
+    CMSPageType: null,
+    layout: "HomepageWCITemplate",
+    location: {pathname: "/", route: "/"},
+    pathRegex: "^/(\?.*)*$",
+    properties: [undefined],
+  };
+
   const {data, errorCode, loading, error} = useQuery(CMS_PAGE_CMS_QUERY, {variables: {
       id : pageConfig.CMSPageId,
       CMSPageType: pageConfig.CMSPageType,
