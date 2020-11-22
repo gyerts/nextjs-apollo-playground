@@ -1,16 +1,19 @@
 import React from "react";
 import styled from 'styled-components';
 import {Box} from "@deity/falcon-ui";
-import {GetServerSideProps, GetStaticProps} from "next";
+import {addApolloState, initializeApollo} from "src/apolloClient";
+import {CMS_PAGE_CMS_QUERY} from "src/components/Cms/graphql/server/CmsPageQuery";
+import {CmsSlot} from "src/components/Cms/CmsSlot";
 
 const HomeLayout = (props) => {
   return (
     <Box className={props.className}>
-      <div>{props.ValFromGetServerSideProps}</div>
-      <div>{props.ValFromGetStaticProps}</div>
-      {/*<CmsSlot position="CMSMainTop" />*/}
-      {/*<CmsSlot position="CMSMainCenter" />*/}
-      {/*<CmsSlot position="CMSMainBottom" />*/}
+      {/*<div>{props.ValFromGetServerSideProps}</div>*/}
+      {/*<div>{props.ValFromGetStaticProps}</div>*/}
+      {/*<div>{props.ValFromGetInitialProps}</div>*/}
+      <CmsSlot position="CMSMainTop" />
+      <CmsSlot position="CMSMainCenter" />
+      <CmsSlot position="CMSMainBottom" />
     </Box>
   )
 };
@@ -35,9 +38,45 @@ const Home = styled(HomeLayout)`
 //   return { props: {ValFromGetServerSideProps: 'ValFromGetServerSideProps!'} }
 // };
 
-export const getStaticProps: GetStaticProps = async (context) => {
-  return { props: {ValFromGetStaticProps: 'ValFromGetStaticProps!'} }
-};
+
+// Home.getInitialProps = async (context) => {
+//   return { props: {ValFromGetInitialProps: 'ValFromGetInitialProps!'} }
+// };
+
+export async function getStaticProps() {
+  const apolloClient = initializeApollo();
+
+  const pageConfig = {
+    CMSCode: null,
+    CMSPageId: "homepage",
+    CMSPageType: null,
+    layout: "HomepageWCITemplate",
+    location: {pathname: "/", route: "/"},
+    pathRegex: "^/(\?.*)*$",
+    properties: [],
+  };
+
+  const {data: {page}} = await apolloClient.query({
+    query: CMS_PAGE_CMS_QUERY,
+    variables: {
+      id : pageConfig.CMSPageId,
+      CMSPageType: pageConfig.CMSPageType,
+      CMSCode: pageConfig.CMSCode
+    },
+  });
+
+  return addApolloState(apolloClient, {
+    props: {
+      page,
+      pageConfig,
+    },
+    revalidate: 1,
+  });
+}
+
+// export const getStaticProps: GetStaticProps = async (context) => {
+//   return { props: {ValFromGetStaticProps: 'ValFromGetStaticProps!'} }
+// };
 
 export default Home;
 
